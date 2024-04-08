@@ -3,6 +3,7 @@
     margin: 0;
     border: 0;
     box-sizing: border-box;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 table,
@@ -10,5 +11,17 @@ td,
 th {
     border: 2px solid black;
     border-collapse: collapse;
-    padding: 5px;
+    padding: 7px;
+    padding-right: 25px;
+    margin: 5px;
+    transition: all 1s;
+}
+
+table:hover {
+    transform: translateX(200px) scale(1.075);
+}
+
+h1,
+h2 {
+    margin: 20px;
 }
