@@ -78,3 +78,12 @@ td {
     border-collapse: collapse;
     padding: 0.5em;
 }
+
+.table {
+    margin: 20px;
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: rgba(95, 158, 160, 0.25);
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.495);
+}
