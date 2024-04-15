@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Formulário de Exercício</title>
+    </head>
+    <body>
+        <header>
+            <h1 id="title">Escola EAD</h1>
+            <h2 id="subtitle">Formulário de Pré-Matrícula</h2>
+        </header>
+        <main>
+            <form action="">
+                <div class="inputContainer">
+                    <label for="name">Nome do aluno: </label>
+                    <input type="text" id="name" name="nome" required/>
+                </div>
+                <div class="inputContainer">
+                    <label for="date">Data de nascimento: </label>
+                    <input type="date" id="date" name="Data" required/>
+                </div>
+                
+                <div class="inputContainer">
+                    <label for="nameDad">Nome do pai: </label>
+                    <input type="text" id="nameDad" name="nomePai" required/>
+                </div>
+                
+                <div class="inputContainer">
+                    <label for="nameMom">Nome da mãe: </label>
+                    <input type="text" id="nameMom" name="nomeMãe" required/>
+                </div>
+                <div class="inputContainer">
+                    <label for="phone">Telefone</label>
+                    <input type="tel" id="phone" name="phone" required/>
+                </div>
+                <div class="inputContainer">
+                    <label for="msg">Mensagem</label>
+                    <input type="email" name="email" id="email" required>
+                </div>
+                <div class="inputContainer">
+                    <label for="msg">Mensagem</label>
+                    <textarea name="msg" id="msg" cols="30" rows="10"></textarea>
+                </div>
+                <button type="submit" id="submit">Enviar</button>
+            </form>
+        </main>
+        <footer>
+            <p id="tks">Agradecemos por utilizar nossos serviços!</p>
+            <a href="formContact.html">Contate-nos!</a>
+            <a href="index.html">Academia</a>
+        </footer>
+    </body>
+</html>
