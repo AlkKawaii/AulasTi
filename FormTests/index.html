@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="style.css" />
+        <title>Formulário de Exercício</title>
+    </head>
+    <body>
+        <header>
+            <h1 id="title">Formulário da Academia</h1>
+        </header>
+        <main>
+            <form action="">
+                <div class="inputContainer">
+                    <label for="name">Nome</label>
+                    <input type="text" id="name" name="nome" />
+                </div>
+                <div class="inputContainer">
+                    <label for="age">Idade</label>
+                    <input type="number" id="age" name="idade" />
+                </div>
+                <div class="inputContainer">
+                    <label for="height">Altura</label>
+                    <input type="number" id="height" name="altura" />
+                </div>
+                <div class="inputContainer">
+                    <label for="weight">Peso</label>
+                    <input type="number" id="weight" name="peso" />
+                </div>
+                <div class="inputContainer">
+                    <label for="type">Tipo de Exercício</label>
+                    <select name="typeOfEx" id="type">
+                        <option value="Cardio0">Cardio 0</option>
+                        <option value="Cardio1">Cardio 1</option>
+                        <option value="Cardio2">Cardio 2</option>
+                        <option value="Cardio3">Cardio 3</option>
+                    </select>
+                </div>
+                <p class="description">Objetivo</p>
+                <div class="inputContainer">
+                    <div class="inputContainer">
+                        <input type="radio" name="obj" id="obj1" value="emagrecimento"/>
+                        <label for="obj1">Emagrecimento</label>
+                    </div>
+                    <div class="inputContainer">
+                        <input type="radio" name="obj" id="obj2" value="tonificação"/>
+                        <label for="obj2">Tonificação</label>
+                    </div>
+                    <div class="inputContainer">
+                        <input type="radio" name="obj" id="obj3" value="ganho"/>
+                        <label for="obj3">Ganho de massa muscular</label>
+                    </div>
+                </div>
+                <button type="submit" id="submit">Enviar</button>
+            </form>
+        </main>
+        <footer>
+            <p id="tks">Agradecemos por utilizar nossos serviços!</p>
+            <a href="formContact.html">Contate-nos!</a>
+        </footer>
+    </body>
+</html>
