@@ -64,10 +64,9 @@ body {
     justify-content: center;
 	width: 100%;
 	aspect-ratio: 1;
-	border: none;
+	border: 75px double black;
 	background-color: rgba(0, 255, 255, 1);
 	position: absolute;
-	overflow: hidden;
     &:nth-child(1) {
 		transform: translateZ(var(--center-distance));
 	}
@@ -86,9 +85,4 @@ body {
 	&:nth-child(6) {
 		transform: rotateX(-90deg) translateZ(var(--center-distance));
 	}
-
-    video {
-        max-height: 100%;
-
-    }
 }
