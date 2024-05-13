@@ -6,6 +6,7 @@
 	--color-three: rgba(38, 64, 19, 1);
 	--color-four: rgba(169, 191, 153, 1);
 	--color-five: rgba(81, 115, 47, 1);
+	font-family: "Comfortaa", sans-serif;
 }
 
 * {
@@ -18,6 +19,7 @@
 
 body {
 	display: flex;
+	flex-flow: column nowrap;
 	height: 100vh;
 	align-items: center;
 	justify-content: center;
@@ -25,17 +27,33 @@ body {
 	perspective: 1000px;
 }
 
+header {
+	display: flex;
+	justify-content: space-around;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	padding: 1em;
+	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+	background-color: var(--color-);
+	color: var(--color-four);
+}
+
 #cube {
 	width: var(--cube-face-size);
 	height: var(--cube-face-size);
 	transform-style: preserve-3d;
 	position: relative;
-	animation: cubeRotateTemp 60s infinite alternate forwards;
+	animation: cubeRotateTemp 120s infinite alternate forwards;
 	transition: all 0.25s;
 	&:hover {
-		scale: 1.5;
+		scale: 1.3;
 	}
 }
+
+/*
+Colocar o P para a animação funcionar
+*/
 
 @keyframes cubeRotateTemp {
 	from {
@@ -61,12 +79,14 @@ body {
 
 .faces {
     display: flex;
-    justify-content: center;
+    justify-content: center; align-items: center;
 	width: 100%;
 	aspect-ratio: 1;
-	border: 75px double black;
-	background-color: rgba(0, 255, 255, 1);
+	border: 5px solid var(--color-four);
+	background-color: rgb(255, 255, 255);
 	position: absolute;
+	backface-visibility: hidden;
+	overflow: hidden;
     &:nth-child(1) {
 		transform: translateZ(var(--center-distance));
 	}
@@ -84,5 +104,24 @@ body {
 	}
 	&:nth-child(6) {
 		transform: rotateX(-90deg) translateZ(var(--center-distance));
+	}
+
+	img {
+		position: absolute;
+		z-index: -100;
+		height: 100%;
+		aspect-ratio: 16/9;
+	}
+
+	a {
+		color: var(--color-four);
+		font-size: 3em;
+		font-weight: 800;
+		cursor: help;
+		transition: all 0.2s;
+		text-align: center;
+		&:hover {
+			scale: 1.1;
+		}
 	}
 }
