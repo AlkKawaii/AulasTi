@@ -1,11 +1,11 @@
 :root {
-	--cube-face-size: 300px;
+	--cube-face-size: 250px;
 	--center-distance: calc(var(--cube-face-size) / 2);
-	--color-one: rgba(42, 115, 31, 1);
-	--color-two: rgba(20, 38, 15, 1);
-	--color-three: rgba(38, 64, 19, 1);
-	--color-four: rgba(169, 191, 153, 1);
-	--color-five: rgba(81, 115, 47, 1);
+	--maize: #f4e04dff;
+	--font-color: rgb(250, 245, 190);
+	--mindaro: #cee397ff;
+	--background-color-light: #8db1abff;
+	--background-color-dark: #587792ff;
 	font-family: "Comfortaa", sans-serif;
 }
 
@@ -23,7 +23,7 @@ body {
 	height: 100vh;
 	align-items: center;
 	justify-content: center;
-    background: linear-gradient(to bottom, var(--color-three) 80%, var(--color-two));
+    background: linear-gradient(to bottom, var(--background-color-light) 80%, var(--background-color-dark));
 	perspective: 1000px;
 }
 
@@ -35,8 +35,21 @@ header {
 	width: 100%;
 	padding: 1em;
 	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
-	background-color: var(--color-);
-	color: var(--color-four);
+	background-color: var(--background-color-dark);
+	color: var(--font-color);
+}
+
+a {
+	display: flex;
+	align-items: center;
+	color: var(--font-color);
+	font-weight: 800;
+	text-align: center;
+	text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.icon {
+	width: 64px;
 }
 
 #main {
@@ -55,7 +68,7 @@ header {
 	transition: all 0.25s;
 	transform: rotateX(45deg) rotateY(45deg);
 	&:hover {
-		scale: 1.1;
+		scale: 1.01;
 	}
 }
 
@@ -90,7 +103,7 @@ Colocar o P para a animação funcionar
     justify-content: center; align-items: center;
 	width: 100%;
 	aspect-ratio: 1;
-	border: 5px solid var(--color-four);
+	border: 5px solid var(--font-color);
 	background-color: rgb(255, 255, 255);
 	position: absolute;
 	overflow: hidden;
@@ -121,11 +134,12 @@ Colocar o P para a animação funcionar
 	}
 
 	a {
-		color: var(--color-four);
-		font-size: 3em;
+		color: var(--font-color);
+		font-size: 2.25em;
 		font-weight: 800;
 		transition: all 0.2s;
 		text-align: center;
+		text-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
 		&:hover {
 			scale: 1.1;
 		}
