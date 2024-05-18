@@ -1,12 +1,12 @@
 :root {
-	--cube-face-size: 250px;
+	--cube-face-size: 300px;
 	--center-distance: calc(var(--cube-face-size) / 2);
-	--maize: #f4e04dff;
-	--font-color: rgb(250, 245, 190);
-	--mindaro: #cee397ff;
-	--background-color-light: #8db1abff;
-	--background-color-dark: #587792ff;
-	font-family: "Comfortaa", sans-serif;
+	--contrast-color-font: #f4e04d;
+	--font-color: #faf5be;
+	--contrast-color-background: #aec671;
+	--background-color-light: #8db1ab;
+	--background-color-dark: #5a7f9f;
+	font-family: 'Comfortaa', sans-serif;
 }
 
 * {
@@ -23,7 +23,12 @@ body {
 	height: 100vh;
 	align-items: center;
 	justify-content: center;
-    background: linear-gradient(to bottom, var(--background-color-light) 80%, var(--background-color-dark));
+	background: linear-gradient(
+			to bottom,
+			var(--background-color-light) 80%,
+			var(--background-color-dark)
+		)
+		no-repeat fixed;
 	perspective: 1000px;
 }
 
@@ -33,10 +38,12 @@ header {
 	position: fixed;
 	top: 0;
 	width: 100%;
-	padding: 1em;
+	height: 4em;
+	padding: 0.5em;
 	box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
 	background-color: var(--background-color-dark);
 	color: var(--font-color);
+	z-index: 1;
 }
 
 a {
@@ -54,8 +61,10 @@ a {
 
 #main {
 	display: flex;
-	justify-content: center;
+	flex-direction: column;
+	align-items: center;
 	width: 100%;
+	padding: 10px;
 }
 
 #cube {
@@ -67,6 +76,7 @@ a {
 	animation: cubeRotateTemp 120s infinite alternate forwards;
 	transition: all 0.25s;
 	transform: rotateX(45deg) rotateY(45deg);
+	margin-top: 20vh;
 	&:hover {
 		scale: 1.01;
 	}
@@ -80,7 +90,7 @@ Colocar o P para a animação funcionar
 	from {
 		transform: rotateX(0deg) rotateY(0deg);
 	}
-
+	
 	25% {
 		transform: rotateX(180deg) rotateY(180deg);
 	}
@@ -88,26 +98,27 @@ Colocar o P para a animação funcionar
 	50% {
 		transform: rotateX(90deg) rotateY(90deg);
 	}
-
+	
 	75% {
 		transform: rotateX(-180deg) rotateY(-180deg);
 	}
-
+	
 	to {
 		transform: rotateX(360deg) rotateY(360deg);
 	}
 }
 
 .faces {
-    display: flex;
-    justify-content: center; align-items: center;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	width: 100%;
 	aspect-ratio: 1;
 	border: 5px solid var(--font-color);
 	background-color: rgb(255, 255, 255);
 	position: absolute;
 	overflow: hidden;
-    &:nth-child(1) {
+	&:nth-child(1) {
 		transform: translateZ(var(--center-distance));
 	}
 	&:nth-child(2) {
@@ -125,17 +136,17 @@ Colocar o P para a animação funcionar
 	&:nth-child(6) {
 		transform: rotateX(-90deg) translateZ(var(--center-distance));
 	}
-
+	
 	img {
 		position: absolute;
 		z-index: -100;
 		height: 100%;
 		aspect-ratio: 16/9;
 	}
-
+	
 	a {
 		color: var(--font-color);
-		font-size: 2.25em;
+		font-size: 2em;
 		font-weight: 800;
 		transition: all 0.2s;
 		text-align: center;
@@ -143,5 +154,66 @@ Colocar o P para a animação funcionar
 		&:hover {
 			scale: 1.1;
 		}
+	}
+}
+
+#mainContent {
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: space-around;
+	align-items: start;
+	position: relative;
+	padding: 10px;
+	width: 100%;
+	gap: 10px;
+}
+
+#biome {
+	font-size: 5em;
+	color: var(--contrast-color-font);
+	opacity: 0.7;
+	margin-top: 128px;
+}
+
+.section {
+	width: 70%;
+}
+
+.section-title {
+	background: linear-gradient(
+		to right,
+		var(--font-color),
+		var(--contrast-color-font)
+	);
+	width: fit-content;
+	background-clip: text;
+	color: transparent;
+	font-size: 3em;
+}
+
+.description {
+	text-align: justify;
+	padding: 15px;
+	border-radius: 10px;
+	color: var(--font-color);
+	background: linear-gradient(
+		to bottom right,
+		var(--background-color-dark) 60%,
+		var(--contrast-color-background)
+	);
+	box-shadow: -2px 2px 5px rgba(0, 0, 0, 0.75);
+}
+
+#aside {
+	position: absolute;
+	right: 15px;
+	top: 3em;
+	perspective: 1000px;
+	img {
+		box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+		rotate: y -20deg;
+		filter: saturate(2);
+		opacity: 0.9;
+		position: sticky;
 	}
 }
