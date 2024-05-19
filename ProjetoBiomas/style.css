@@ -154,6 +154,18 @@ Colocar o P para a animação funcionar
 		&:hover {
 			scale: 1.1;
 		}
+		&:hover::after {
+			content: attr(data-introduction);
+			position: absolute;
+			bottom: 40px;
+			right: 0;
+			padding: 5px;
+			height: fit-content;
+			width: 13em;
+			background: var(--background-color-light);
+			border-radius: 10px;
+			font-size: 0.4em;
+		}
 	}
 }
 
@@ -215,5 +227,9 @@ Colocar o P para a animação funcionar
 		filter: saturate(2);
 		opacity: 0.9;
 		position: sticky;
+		transition: all 0.5s;
+		&:hover {
+			rotate: y -10deg;
+		}
 	}
 }
