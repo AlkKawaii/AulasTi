@@ -6,5 +6,6 @@
 
 body {
     background-color: aqua;
-    transition: all 1s;
+    transition: all .5s;
+    opacity: 0;
 }
