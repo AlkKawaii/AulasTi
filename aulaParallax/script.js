@@ -5,7 +5,7 @@ window.addEventListener('scroll', function() {
     const parallaxElements = document.querySelectorAll('.parallax');
     
     // Obtém a posição atual de rolagem vertical da janela
-    let scrollPosition = window.pageYOffset;
+    let scrollPosition = window.scrollY;
 
     // Itera sobre cada elemento com a classe 'parallax'
     parallaxElements.forEach(function(el) {
