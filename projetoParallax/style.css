@@ -1,0 +1,94 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body,
+html {
+	scroll-behavior: smooth;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+		'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	padding: 5px 3px;
+	z-index: 10;
+	background-color: rgba(88, 129, 28, 0.75);
+}
+
+#links {
+	list-style-type: none;
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+a {
+	color: white;
+	text-decoration: none;
+	font-weight: 700;
+	text-shadow: 0 3px 7px rgba(0, 0, 0, 0.5);
+}
+
+li {
+	transition: all 0.5s;
+}
+
+li:hover {
+	transform: translateY(-2px);
+}
+
+#home img {
+	width: 48px;
+}
+
+.parallax {
+	height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	color: rgb(172, 244, 64);
+	font-size: 2em;
+	text-shadow: 2px 2px 4px rgba(255, 255, 255, 0.4);
+	background: fixed center no-repeat;
+	background-size: cover;
+}
+
+.parallax1 {
+	background-image: url('images/trator1.jpg');
+}
+
+.parallax2 {
+	background-image: url('images/trator2.jpg');
+}
+
+.parallax3 {
+	background-image: url('images/colheitadeira1.jpg');
+}
+
+.parallax4 {
+	background-image: url('images/colheitadeira2.jpg');
+}
+
+.content {
+	min-height: 100px;
+	background: linear-gradient(rgba(88, 129, 28, 0.8), rgb(172, 244, 64));
+	text-align: center;
+	padding: 40px 20px;
+}
+
+.content p {
+	font-size: 1.1em;
+	line-height: 1.5em;
+}
+
+footer {
+	background-color: rgba(88, 129, 28, 0.8);
+	color: white;
+	text-align: center;
+	padding: 16px;
+}
