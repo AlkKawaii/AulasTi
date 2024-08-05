@@ -1,0 +1,43 @@
+* {
+  margin: 0; /* Remove margens padrão */
+  padding: 0; /* Remove espaçamentos internos padrão */
+  box-sizing: border-box; /* Inclui bordas e espaçamentos nas dimensões */
+  font-family: "Comic Sans MS", "Comic Sans", cursive; /* Fonte Comic Sans */
+  transition: all 30s ease-in-out;
+}
+
+#header {
+  background-color: aqua; /* Fundo azul claro */
+  color: white; /* Texto branco */
+  padding: 10px 20px; /* Espaçamento interno do cabeçalho */
+  text-align: center; /* Texto centralizado */
+}
+
+#nav {
+  display: flex; /* Layout flexível */
+  justify-content: space-around; /* Distribui itens igualmente */
+}
+
+.nav-item {
+  padding: 10px; /* Espaçamento interno dos itens do menu */
+  background-color: navy; /* Fundo azul escuro */
+  border-radius: 5px; /* Bordas arredondadas */
+}
+
+#main {
+  display: flex; /* Layout flexível */
+  justify-content: space-between; /* Espaçamento entre elementos */
+  padding: 20px; /* Espaçamento interno */
+}
+
+#content {
+  flex: 3; /* Ocupa 3 partes do espaço */
+  background-color: aquamarine; /* Fundo verde claro */
+  padding: 20px; /* Espaçamento interno */
+  margin-right: 20px; /* Espaçamento à direita */
+}
+
+
+body *:hover {
+    transform: rotateX(720deg) rotateY(720deg) rotateZ(720deg);
+}
