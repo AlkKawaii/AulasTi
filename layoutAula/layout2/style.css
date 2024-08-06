@@ -1,0 +1,53 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	-webkit-user-select: none;
+	user-select: none;
+}
+
+body {
+	background-color: rgba(140, 250, 250, 0.5);
+	font-family: sans-serif;
+}
+
+header {
+	padding: 1em;
+	text-align: center;
+}
+
+#my-grid {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(128px, 1fr));
+	gap: 1.5em;
+	width: 80%;
+	margin: auto;
+	margin-bottom: 1em;
+}
+
+.grid-item {
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	padding: 0.5em;
+	border-radius: 8px;
+	text-align: center;
+	background-color: rgba(120, 255, 120, 0.7);
+	will-change: transform;
+	transition: all 0.25s;
+	&:hover {
+		transform: scale(1.05);
+		background-color: rgb(120, 255, 120);
+	}
+	& img {
+		width: 100px;
+	}
+}
+
+
+@property --minha-cor-de-fundo {
+    syntax: "<color>";
+    inherits: true;
+    initial-value: rgb(0, 0, 0);
+
+}
