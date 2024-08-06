@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.periodic-table {
+    display: grid;
+    grid-template-columns: repeat(18, 1fr);
+    grid-gap: 10px;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.element {
+    background-color: #e0e0e0;
+    border: 1px solid #bdbdbd;
+    border-radius: 5px;
+    text-align: center;
+    padding: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.element:hover {
+    background-color: #d5d5d5;
+}
+
+.number {
+    font-size: 12px;
+    color: #757575;
+}
+
+.symbol {
+    font-size: 24px;
+    font-weight: bold;
+    color: #212121;
+}
+
+.name {
+    font-size: 12px;
+    color: #757575;
+}
+
+.weight {
+    font-size: 12px;
+    color: #757575;
+}

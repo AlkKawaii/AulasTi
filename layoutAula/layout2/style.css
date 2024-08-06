@@ -43,11 +43,3 @@ header {
 		width: 100px;
 	}
 }
-
-
-@property --minha-cor-de-fundo {
-    syntax: "<color>";
-    inherits: true;
-    initial-value: rgb(0, 0, 0);
-
-}
