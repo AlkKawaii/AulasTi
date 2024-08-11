@@ -1,6 +1,20 @@
+/* 
+Aqui na pseudo-classe :root eu defino as CSS Custom Properties com cores que irei usar ao longo do projeto, além de definir o font-size (tamanho da fonte do elemento) com a unidade absoluta px que será herdado por todos os outros elementos da página, já que :root se refere ao elemento <html>.
+
+*Importante notar que apesar de px ser chamado de medida absoluta, é na verdade relativo a densidade de pixeis (DPI) da tela do usuário, são chamados de pixeis lógicos e são calculados para que conforme o DPI os pixeis físicos da tela se iluminem de forma equivalente em qualquer dispositivo.
+*/
+
 :root {
-	scroll-behavior: smooth;
+	--my-red: rgb(220, 70, 100);
+	--my-blue: rgb(70, 100, 220);
+	--my-green: rgb(100, 220, 70);
+	--text-color: rgb(240, 210, 210);
+	font-size: 32px;
 }
+
+/* 
+Aqui faço o reset do CSS padrão do navegador, removendo o padding (define o espaçamento interno) e o margin (espaçamento externo) injetado pelo navegador, além de definir o box-sizing como border-box ao invés do default que é content-box, dessa forma o espaçamento interno (padding) não altera o tamanho final do elemento, quando definido com height (define a altura de um elemento) e width (define a largura de um elemento).
+*/
 
 * {
 	margin: 0;
@@ -8,59 +22,70 @@
 	box-sizing: border-box;
 }
 
+/* 
+Já aqui, acontece bastante coisa, começo definindo o height com a medida relativa 100vh (corresponde a altura da viewport (não sei como traduzir isso, mas é o espaço que o site aparece)), fazendo o body ocupar todo o espaço da tela. Em seguida a font-family (define a fontface que será utilizada no elemento, é herdada por elementos filhos) é definida como Cascadia Code (uma fonte mono-espaçada que tenho instalada no meu computador) e colocado um fallback pro caso da fonte não estar disponível. Defino color (define a cor do texto) com a variável --text-color. Em seguida altero o display (essencialmente altera o tipo do elemento, pode receber 1 ou 2 valores, definindo como o elemento se comporta sendo filho de outros e como ele define o comportamento de seus filhos) do body para flex (é um tipo de container unidimensional), em seguida defino flex-direction (define a direção que os elementos de um flexbox seguem) como column para que fique vertical e defino justify-content (define o espaçamento dos elementos filhos entre eles em relação ao espaço disponível dentro do elemento pai) como space-between para que os elementos tenham um espaço igual entre eles.
+Aqui o caldo começa a engrossar, uso uma funcionalidade relativamente nova do CSS, as regras aninhadas (nested rules), isso permite que eu usando o seletor & me referencie ao elemento da regra pai e em seguida defino como o elemento filho desse deve se comportar, é muito útil para escrever código de mais fácil entendimento, esta funcionalidade que antes só estava disponível em pré-processadores como sass ou less finalmente chegou como nativa nos navegadores mais utilizados. 
+Uso & > * isso seleciona todos os filhos diretos do body, que no caso são header, main e footer. Altero a width dele usando a medida relativa 80% (porcentagens se referem ao espaço disponível dentro do elemento pai) e altero o margin para ser 0 auto, isso faz com que não haja espaçamento acima e abaixo do elemento, mas define um espaçamento automático aos lados, o que normalmente faz o elemento ser centralizado. Um padding de 0.5em e 1em é definido (em é a medida relativa ao tamanho da fonte explicitamente definida mais próximo), já que defini no :root o font-size como 32px, isso neste ponto aqui significa 16px 32px, o border-radius (arredonda a borda dos elementos) é definido como 0.5em (16px) para suavizar as bordas dos elementos. 
+& p está aninhado dentro de & > *, logo isso equivale a body > :is(header, main, footer) p, selecionando os parágrafos dentro do header, main e footer. Aqui defino text-align (define o alinhamento do texto) como justify, que deixa o texto encostando as bordas da caixa e um espaçamento consistente entre as palavras. E defino o font-size como 0.9em que equivale a 28.8px. 
+*/
+
 body {
+	height: 100vh;
+	font-family: 'Cascadia Code', monospace;
+	color: var(--text-color);
 	display: flex;
-	flex-flow: column;
-	gap: 100vh;
-	min-height: 100vh;
-	padding: 10px;
-	background: url(gato.jpg) no-repeat fixed;
-}
-
-.examples {
-	margin: auto;
-	width: fit-content;
-	padding: 10px;
-	font-family: 'Comic Sans MS', 'Comic Sans', cursive;
-}
-
-#example-box {
-	position: absolute;
-	top: 105px;
-	background-color: gray;
-	z-index: 1;
-}
-
-#example-box2 {
-	position: absolute;
-	top: 100px;
-	background-color: lightblue;
-	z-index: 0;
-}
-
-#lista {
-	margin: auto;
-	list-style-type: '🖼️';
-}
-
-#example-box3 {
-	display: flex;
-	width: 25em;
-	height: 200px;
+	flex-direction: column;
 	justify-content: space-between;
-	align-items: baseline;
-	color: burlywood;
-	text-decoration: underline dashed blue;
-	font-size: 3em;
-	background-color: lightgrey;
-	border-radius: 50px;
-	text-shadow: 5px 5px 1px rgba(0, 0, 0, 0.5);
+	& > * {
+		width: 80%;
+		margin: 0 auto;
+		padding: 0.5em 1em;
+		font-size: 1em;
+		text-align: center;
+		border-radius: 0.5em;
+
+		& p {
+			text-align: justify;
+			font-size: 0.9em;
+		}
+	}
 }
 
-#justified-text {
-	width: 500px;
-	text-align: justify;
-	line-height: 3;
-	background-color: aquamarine;
-	min-height: 400px;
+/* 
+Neste daqui e nos subsequentes, defino o background-color (define uma cor de fundo para o elemento), com uma cor única para cada um. 
+No header defino a position (define a posição do elemento, dependendo do valor o comportamento pode mudar bastante) dele como relativa, essencialmente ela faz com que o elemento possa ser alterado de lugar mas o mantém no mesmo plano dos outros.
+Então a aplico o seguinte seletor: &:hover::after, que faz com que quando o header tiver o mouse sobre ele faça o pseudo-elemento after aparecer. O content (conteúdo do pseudo elemento) dele é definido usando a função attr, que resgata o valor de um atributo definido no elemento, nomeei o atributo de data-text. A position definida como absoluta faz com que a posição seja calculada com base na posição do elemento ancestral mais próximo cuja position foi explicitamente definida, em seguida pode-se usar as propriedades top, right, left e bottom para ajustar a posição. Eu uso top e right para colocar o elemento na altura do inicio do elemento pai e 2.5em (80px) afastado para a esquerda. Mix-blend-mode calcula as cores do elemento com base nas cores ao fundo do elemento e as cores do próprio elemento.
+*/
+
+header {
+	background-color: var(--my-red);
+	position: relative;
+	&:hover::after {
+		content: attr(data-text);
+		position: absolute;
+		top: 0;
+		right: -2.5em;
+		background-color: white;
+		color: black;
+		mix-blend-mode: difference;
+	}
+}
+
+/* 
+Aqui a propriedade flex (é uma shorthand para flex-grow, flex-shrink e flex-basis, essencialmente define como os filhos de um flexbox crescem ou diminuem em relação ao espaço disponível, é como um análogo a unidade de medida fr dos grids) é definida como 0.5, fazendo com que não cresça tanto mas ainda assim ocupe um espaço maior que seus irmãos, então defino o line-height (define o tamanho da linha de um texto, ou do espaço de texto de um elemento inline ou inline-block) para 1.75 do tamanho normal para que seja justificado esse tamanho maior.
+*/
+
+main {
+	background-color: var(--my-blue);
+	flex: 0.5;
+	line-height: 1.75;
+}
+
+/* 
+Defino o tamanho do footer como 100vw (é o equivalente do vh para largura da viewport, existem outras variantes dessas medidas de viewport, como vmin (é a menor dimensão da viewport, ou seja será relativo a qual medida entre a largura e a altura for menor) e vmax (o mesmo que vmin, só que para a maior medida). Além dessas existem as medidas que são especialmente úteis para sites feitos para funcionar em mobile, lvw, lvh, lvmin, lvmax, svw, svh, svmin, svmax, dvw, dvh, dvmin e por fim dvmax, essas basicamente levam em conta (ou não) os elementos de interface do navegador, já que no mobile eles podem aparecer ou desaparecer dependendo da situação.).
+*/
+
+footer {
+	background-color: var(--my-green);
+	width: 100vw;
 }
