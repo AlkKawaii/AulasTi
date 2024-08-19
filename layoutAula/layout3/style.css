@@ -1,0 +1,27 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#header {
+  background-color: rgb(220, 20, 60);
+  text-align: center;
+  padding: 1em 2em;
+}
+
+#main {
+    display: flex;
+}
+
+#sidebar {
+  background-color: rgb(100, 149, 237);
+}
+
+#content {
+  background-color: rgb(127, 255, 0);
+}
+
+#footer {
+  background-color: rgb(218, 165, 32);
+}
