@@ -1,43 +1,88 @@
 * {
-  margin: 0; /* Remove margens padrão */
-  padding: 0; /* Remove espaçamentos internos padrão */
-  box-sizing: border-box; /* Inclui bordas e espaçamentos nas dimensões */
-  font-family: "Comic Sans MS", "Comic Sans", cursive; /* Fonte Comic Sans */
-  transition: all 30s ease-in-out;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+  user-select: none;
+  /* Aqui o CSS padrão do navegador é resetado, removo margin e padding nativo do navegador, além de setar fonte para todos os elementos e desabilitar a seleção de texto. */
 }
 
 #header {
-  background-color: aqua; /* Fundo azul claro */
-  color: white; /* Texto branco */
-  padding: 10px 20px; /* Espaçamento interno do cabeçalho */
-  text-align: center; /* Texto centralizado */
-}
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: aqua;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
 
+  /* Aqui é definido o header que ficará fixado no topo da tela, ocupando toda a largura disponível e alinhando o texto no centro. */
+}
 #nav {
-  display: flex; /* Layout flexível */
-  justify-content: space-around; /* Distribui itens igualmente */
+  display: flex;
+  justify-content: space-around;
+  /* Aqui é definido a nav como um display flexível espaçando os seus itens igualmente os espaço ao redor e entre os itens. */
 }
 
 .nav-item {
-  padding: 10px; /* Espaçamento interno dos itens do menu */
-  background-color: navy; /* Fundo azul escuro */
-  border-radius: 5px; /* Bordas arredondadas */
+  padding: 10px;
+  background-color: navy;
+  border-radius: 5px;
+  cursor: pointer;
+  /* Além do de praxe, é definido uma borda e para que o cursos assuma a forma da mão clicando ao passar por cima do item. */
 }
 
 #main {
-  display: flex; /* Layout flexível */
-  justify-content: space-between; /* Espaçamento entre elementos */
-  padding: 20px; /* Espaçamento interno */
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+  min-height: 100vh;
+  margin-top: 64px;
+  /* Além das propriedades que já foram explicadas anteriormente, é definido um space-between que espaça os itens igualmente entre eles. Uma altura minima de 100% do tamanho vertical da tela e uma margem no topo para que o header não cubra o conteúdo inicialmente. */
 }
 
 #content {
-  flex: 3; /* Ocupa 3 partes do espaço */
-  background-color: aquamarine; /* Fundo verde claro */
-  padding: 20px; /* Espaçamento interno */
-  margin-right: 20px; /* Espaçamento à direita */
+  flex: 3;
+  background-color: aquamarine;
+  padding: 20px;
+  margin-right: 20px;
+  /* O diferente que ocorre aqui é que defino o elemento para crescer em 3/4 do espaço disponível. */
 }
 
+#sidebar {
+  flex: 1;
+  padding: 20px;
+  background-color: blueviolet;
+}
 
-body *:hover {
-    transform: rotateX(720deg) rotateY(720deg) rotateZ(720deg);
+#footer {
+  background-color: brown;
+  padding: 1em;
+  width: 100%;
+  text-align: center;
+}
+
+.comment,
+.image,
+.news-item {
+  margin: 10px;
+  padding: 10px;
+  background-color: azure;
+  border-radius: 5px;
+}
+
+#gallery {
+  display: flex;
+  justify-content: space-around;
+  padding: 10px;
+}
+
+.image {
+  width: 30%;
+  height: 100px;
+  background-color: bisque;
+  text-align: center;
+  line-height: 100px;
+  margin: 10px;
+  /* line height aumenta o tamanho da linha. */
 }
