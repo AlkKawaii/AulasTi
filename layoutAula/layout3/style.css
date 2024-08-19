@@ -1,27 +1,44 @@
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5em;
+  height: 100vh;
+  text-align: center;
 }
 
 #header {
   background-color: rgb(220, 20, 60);
-  text-align: center;
   padding: 1em 2em;
 }
 
 #main {
-    display: flex;
+  display: flex;
+  gap: 0.5em;
+  & > * {
+    height: 80vh;
+  }
 }
 
 #sidebar {
+  flex: 1;
   background-color: rgb(100, 149, 237);
 }
 
 #content {
+  flex: 3;
   background-color: rgb(127, 255, 0);
 }
 
 #footer {
+  padding: 1em 1.5em;
   background-color: rgb(218, 165, 32);
+  width: 100%;
+  position: fixed;
+  bottom: 0;
 }
