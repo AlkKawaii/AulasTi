@@ -1,0 +1,46 @@
+:root {
+  --border-config: solid 2px black;
+  --background-color: rgb(231, 230, 230);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25em;
+  height: 100vh;
+  padding: 0.5em;
+  font-family: "Comic Sans MS";
+  background-color: rgb(68, 114, 196);
+  text-align: center;
+}
+
+header,
+nav,
+aside,
+section,
+article,
+footer {
+  border: var(--border-config);
+  background-color: var(--background-color);
+}
+
+header,
+nav {
+  padding: 0.5em;
+  font-size: 1.2em;
+}
+
+main {
+  display: flex;
+  width: 100%;
+}
+div {
+  display: flex;
+  flex-direction: column;
+}
