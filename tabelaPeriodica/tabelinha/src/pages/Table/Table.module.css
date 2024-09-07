@@ -1,0 +1,12 @@
+.title {
+    font-size: 1.75em;
+    text-align: center;
+}
+
+.table {
+    display: grid;
+    gap: 4px;
+    grid-template-columns: repeat(18, 58px);
+    grid-template-rows: repeat(10, 58px);
+    padding: 0.4em;
+}

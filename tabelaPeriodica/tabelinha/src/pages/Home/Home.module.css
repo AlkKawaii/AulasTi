@@ -1,0 +1,33 @@
+.content {
+  display: flex;
+  gap: 1em;
+  padding: 1em 2em;
+  flex-direction: column;
+  & h1 {
+    text-align: center;
+    font-size: 1.7 5em;
+  }
+}
+
+.topic {
+  display: flex;
+  gap: 2em;
+  align-items: center;
+  & p {
+    text-align: justify;
+    line-height: 1.6;
+    &::first-letter {
+      margin-left: 2em;
+    }
+  }
+  & img {
+    width: 256px;
+    border-radius: .5em;
+  }
+}
+
+.topic:nth-child(even) {
+    & img {
+        order: -1;
+    }
+}
