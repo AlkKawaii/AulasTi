@@ -1,12 +1,10 @@
 import styles from './FlipCard.module.css';
 import '@google/model-viewer';
 export default function FlipCard({ info }) {
-    let frontInfo;
-    let backInfo;
-
-    
-
   const nullInfo = <p>Clique Em Algum Elemento</p>;
+  let frontInfo;
+  let backInfo;
+
   return (
     <div className={styles.flipCard}>
       <section className={styles.flipCardInner}>

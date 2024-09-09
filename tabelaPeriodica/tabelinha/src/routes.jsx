@@ -8,7 +8,7 @@ export default function AppRoutes() {
     <Router>
       <Routes>
         <Route path='/' element={<Default />}>
-          <Route index path='home' element={<Home />} />
+          <Route index element={<Home />} />
           <Route path='table' element={<Table />} />
         </Route>
       </Routes>
