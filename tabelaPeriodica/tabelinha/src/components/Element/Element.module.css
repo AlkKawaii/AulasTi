@@ -1,5 +1,7 @@
 .element {
   position: relative;
+  width: 58px;
+  height: 58px;
   border: 2px solid black;
   border-radius: 0.25em;
   text-align: center;
