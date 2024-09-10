@@ -13,20 +13,56 @@
   height: 100%;
   text-align: center;
   transform-style: preserve-3d;
-  transition: transform 0.5s;
+  transition: transform 1s cubic-bezier(.68,-0.55,.27,1.55);
 }
 
 .flipCardFront,
 .flipCardBack {
   position: absolute;
+  display: flex;
+  flex-direction: column;
   width: 100%;
   height: 100%;
   padding: 1em;
   border-radius: 8px;
+  align-items: center;
+  justify-content: center;
+  text-align: justify;
   backface-visibility: hidden;
-  background-color: rgb(220, 240, 250);
+  /* background-color: rgb(220, 240, 250); */
+  box-shadow: 2px 8px 8px rgba(0, 0, 0, 0.25);
+  background: linear-gradient(
+    45deg,
+    rgb(210, 230, 240) 45%,
+    rgb(215, 245, 255) 50%,
+    rgb(210, 230, 240) 55%
+  );
+  background-size: 200%;
+  animation: shine 2s linear infinite;
+}
+
+@keyframes shine {
+  from {
+    background-position: -100%;
+  }
+
+  to {
+    background-position: 100%;
+  }
 }
 
 .flipCardBack {
   transform: rotateY(180deg);
+}
+
+.info {
+  text-transform: capitalize;
+  font-size: 0.75em;
+}
+
+.summary {
+  font-size: 0.8em;
+  height: 20%;
+  overflow-y: scroll;
+  padding: .5em;
 }

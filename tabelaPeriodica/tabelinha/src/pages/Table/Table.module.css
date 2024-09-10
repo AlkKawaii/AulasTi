@@ -1,18 +1,22 @@
 .title {
-    font-size: 1.75 em;
-    text-align: center;
+  font-size: 3em;
+  font-weight: 900;
+  text-align: center;
+  color: transparent;
+  background: linear-gradient(to bottom, rgb(187, 0, 255) 30%, rgb(255, 0, 140));
+  background-clip: text;
 }
 
 .content {
-    display: flex;
-    gap: 1em;
-    height: 100%;
+  display: flex;
+  justify-content: space-around;
+  height: 100%;
 }
 
 .table {
-    display: grid;
-    gap: 4px;
-    grid-template-columns: repeat(18, 58px);
-    grid-template-rows: repeat(10, 58px);
-    padding: 0.4em;
+  display: grid;
+  gap: 4px;
+  grid-template-columns: repeat(18, 58px);
+  grid-template-rows: repeat(10, 58px);
+  padding: 0.4em;
 }
