@@ -12,6 +12,12 @@
   z-index: 10;
 }
 
+.grouping {
+  display: flex;
+  align-items: center;
+  gap: 1em;
+}
+
 body .title {
   font-size: 1.5em;
   font-weight: 500;

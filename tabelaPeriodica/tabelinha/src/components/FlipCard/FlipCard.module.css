@@ -55,6 +55,10 @@
   transform: rotateY(180deg);
 }
 
+.flipCardFront div {
+  transform: scale(1.5);
+}
+
 .info {
   text-transform: capitalize;
   font-size: 0.75em;
