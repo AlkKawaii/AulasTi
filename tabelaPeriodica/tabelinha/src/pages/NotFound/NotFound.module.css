@@ -1,0 +1,22 @@
+.content {
+  display: flex;
+  height: 81.4vh;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-size: 3em;
+}
+
+.content * {
+  animation: glowing 2s infinite;
+}
+
+@keyframes glowing {
+  from,
+  to {
+    filter: drop-shadow(2px -2px 4px rgba(0, 255, 0, 0.5));
+  }
+  50% {
+    filter: drop-shadow(-2px 2px 4px rgb(0, 255, 0));
+  }
+}
