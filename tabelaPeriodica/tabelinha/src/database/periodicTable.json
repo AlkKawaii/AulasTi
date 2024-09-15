@@ -9,12 +9,11 @@
     "number": 1,
     "phase": "Gasoso",
     "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_001_hydrogen/element_001_hydrogen.glb",
-    "summary": "O hidrogênio é um elemento químico com símbolo químico H e número atômico 1. Com peso atômico de 1,00794 u, o hidrogênio é o elemento mais leve da tabela periódica. ",
+    "summary": "O hidrogênio é o elemento químico de símbolo H e número atômico 1 da tabela periódica. Trata-se do elemento mais simples conhecido, cujo átomo é formado apenas por um próton e nenhum nêutron. O elemento hidrogênio faz parte da composição dos seres vivos, pois está presente em moléculas orgânicas, como carboidratos, proteínas e lipídios, além de compor a substância vital água (H2O).",
     "symbol": "H",
     "xPos": 1,
     "yPos": 1,
     "electron_configuration": "1s1",
-    "ionization_energies": [1312],
     "block": "s"
   },
   {
@@ -27,12 +26,11 @@
     "number": 2,
     "phase": "Gasoso",
     "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_002_helium/element_002_helium.glb",
-    "summary": "O hélio é um elemento químico com símbolo He e número atômico 2. É um gás monoatômico incolor, inodoro, insípido, não tóxico, inerte que lidera o grupo de gases nobres na tabela periódica. ",
+    "summary": "O hélio, símbolo He e número atômico 2, é o primeiro gás nobre da Tabela Periódica. Entre suas principais características está sua baixa densidade e seu baixíssimo ponto de ebulição, o menor entre os elementos. Seu estado sólido é de difícil obtenção, exigindo altíssimas pressões. Possui apenas dois isótopos estáveis e é reconhecido por sua grande inércia química e caráter não inflamável. A maior utilidade do gás hélio se dá em sistemas criogênicos. Sua baixa temperatura de liquefação é utilizada por cientistas para atingir temperaturas muito próximas ao zero Kelvin (-273,15 °C). É nessa faixa de temperatura que se alcança a condição de supercondutividade, estado em que os materiais não apresentam mais resistência elétrica.",
     "symbol": "He",
     "xPos": 18,
     "yPos": 1,
     "electron_configuration": "1s2",
-    "ionization_energies": [2372.3, 5250.5],
     "block": "s"
   },
   {
@@ -45,12 +43,11 @@
     "number": 3,
     "phase": "Sólido",
     "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_003_lithium/element_003_lithium.glb",
-    "summary": "Lítio (do grego: λίθος lithos, \"pedra\") é um elemento químico com o símbolo Li e número atômico 3. É um metal macio, branco prateado, pertencente ao grupo de elementos químicos dos metais alcalinos. ",
+    "summary": "O lítio é um elemento químico com símbolo Li, número atômico 3, massa atômica 7, pertencente ao grupo 1 (Família 1A), sendo um metal alcalino. O lítio apresenta diversos tipos de uso, desde aplicações industriais até produção de medicamentos.",
     "symbol": "Li",
     "xPos": 1,
     "yPos": 2,
     "electron_configuration": "1s2 2s1",
-    "ionization_energies": [520.2, 7298.1, 11815],
     "block": "s"
   },
   {
@@ -63,12 +60,11 @@
     "number": 4,
     "phase": "Sólido",
     "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_004_beryllium/element_004_beryllium.glb",
-    "summary": "O berílio é um elemento químico com símbolo Be e número atômico 4. É criado através da nucleossíntese estelar e é um elemento relativamente raro no universo. ",
+    "summary": "O berílio é um elemento químico com símbolo Be e número atômico 4. É criado através da nucleossíntese estelar e é um elemento relativamente raro no universo. O metal puro é usado na fabricação de armas nucleares e reatores, aeronaves e estruturas de veículos espaciais, instrumentos, máquinas de raios X e espelhos",
     "symbol": "Be",
     "xPos": 2,
     "yPos": 2,
     "electron_configuration": "1s2 2s2",
-    "ionization_energies": [899.5, 1757.1, 14848.7, 21006.6],
     "block": "s"
   },
   {
@@ -81,12 +77,11 @@
     "number": 5,
     "phase": "Sólido",
     "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_005_boron/element_005_boron.glb",
-    "summary": "O boro é um elemento químico semimetal com símbolo B e número atômico 5. Produzido inteiramente por espalação de raios cósmicos e supernovas e não por nucleossíntese estelar, é um elemento de baixa abundância tanto no sistema solar quanto na crosta terrestre. ",
+    "summary": "O boro é um elemento químico semimetal com símbolo B e número atômico 5. Produzido inteiramente por espalação de raios cósmicos e supernovas e não por nucleossíntese estelar, é um elemento de baixa abundância tanto no sistema solar quanto na crosta terrestre. Aplicado no setor aeroespacial e em medicamentos, atua na absorção de vitaminas e minerais.",
     "symbol": "B",
     "xPos": 13,
     "yPos": 2,
     "electron_configuration": "1s2 2s2 2p1",
-    "ionization_energies": [800.6, 2427.1, 3659.7, 25025.8, 32826.7],
     "block": "p"
   },
   {
@@ -99,12 +94,11 @@
     "number": 6,
     "phase": "Sólido",
     "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_006_carbon/element_006_carbon.glb",
-    "summary": "Carbono (do latim: carbo \"carvão\") é um elemento químico com símbolo C e número atômico 6. Na tabela periódica, é o primeiro (linha 2) de seis elementos da coluna (grupo) 14, que têm em comum o ",
+    "summary": "O Carbono é um elemento não-metálico tetravalente, pertence a família 4A na tabela periódica, exibe o número atômico 6 e massa atômica 12; seu símbolo é a letra C. O principal uso do Carbono pelo homem é no aproveitamento dos combustíveis fósseis, como petróleo e gás natural, compostos de hidrocarbonetos.",
     "symbol": "C",
     "xPos": 14,
     "yPos": 2,
     "electron_configuration": "1s2 2s2 2p2",
-    "ionization_energies": [1086.5, 2352.6, 4620.5, 6222.7, 37831, 47277],
     "block": "p"
   },
   {
@@ -117,12 +111,11 @@
     "number": 7,
     "phase": "Gasoso",
     "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_007_nitrogen/element_007_nitrogen.glb",
-    "summary": "O nitrogênio é um elemento químico com símbolo N e número atômico 7. É o pnictogênio mais leve e à temperatura ambiente é um gás diatômico transparente e inodoro. ",
+    "summary": "O nitrogênio é um elemento químico com símbolo N e número atômico 7. É o pnictogênio mais leve e à temperatura ambiente é um gás diatômico transparente e inodoro. O nitrogênio pode ser utilizado em diversas aplicações, como listado a seguir: No congelamento e transporte de alimentos, e outros compostos orgânicos; No processo de fabricação de componentes eletrônicos (transistores, diodos, circuitos integrados, etc.); Na produção de aço inoxidável; Na fabricação de compostos orgânicos de nitrogênio, como a Nitroglicerina e o Trinitrotolueno (TNT).",
     "symbol": "N",
     "xPos": 15,
     "yPos": 2,
     "electron_configuration": "1s2 2s2 2p3",
-    "ionization_energies": [1402.3, 2856, 4578.1, 7475, 9444.9, 53266.6, 64360],
     "block": "p"
   },
   {
@@ -135,14 +128,11 @@
     "number": 8,
     "phase": "Gasoso",
     "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_008_oxygen/element_008_oxygen.glb",
-    "summary": "O oxigênio é um elemento químico com símbolo O e número atômico 8. É um membro do grupo dos calcogênios na tabela periódica e é um não-metal altamente reativo e agente oxidante que forma facilmente compostos (principalmente óxidos) com a maioria dos elementos. ",
+    "summary": "O oxigênio é um elemento químico com símbolo O e número atômico 8. É um membro do grupo dos calcogênios na tabela periódica e é um não-metal altamente reativo e agente oxidante que forma facilmente compostos (principalmente óxidos) com a maioria dos elementos. É fundamental para a respiração aeróbica, permitindo a produção de energia por meio da glicose. Usado em processos industriais, como produção de aço, oxidação de metais e geração de energia. Possui aplicações na medicina, incluindo terapias de oxigenação e suporte respiratório em emergências.",
     "symbol": "O",
     "xPos": 16,
     "yPos": 2,
     "electron_configuration": "1s2 2s2 2p4",
-    "ionization_energies": [
-      1313.9, 3388.3, 5300.5, 7469.2, 10989.5, 13326.5, 71330, 84078
-    ],
     "block": "p"
   },
   {
@@ -155,14 +145,11 @@
     "number": 9,
     "phase": "Gasoso",
     "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_009_fluorine/element_009_fluorine.glb",
-    "summary": "O flúor é um elemento químico com símbolo F e número atômico 9. É o halogênio mais leve e existe como um gás diatômico amarelo pálido altamente tóxico em condições padrão. ",
+    "summary": "O flúor é bastante distribuído na crosta terrestre, tendo a fluorita como principal fonte mineral. É obtido por meio da oxidação eletrolítica do fluoreto de potássio e é majoritaramente empregado para a produção do combustível nuclear UF6. Também é usado em cremes dentais e na preparação do teflon, entre outros usos.",
     "symbol": "F",
     "xPos": 17,
     "yPos": 2,
     "electron_configuration": "1s2 2s2 2p5",
-    "ionization_energies": [
-      1681, 3374.2, 6050.4, 8407.7, 11022.7, 15164.1, 17868, 92038.1, 106434.3
-    ],
     "block": "p"
   },
   {
@@ -175,14 +162,11 @@
     "number": 10,
     "phase": "Gasoso",
     "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_010_neon/element_010_neon.glb",
-    "summary": "O néon é um elemento químico com símbolo Ne e número atômico 10. Está no grupo 18 (gases nobres) da tabela periódica. ",
+    "summary": "O neônio é um gás nobre do segundo período da Tabela Periódica. Dentre os elementos desse grupo, é o segundo mais abundante da atmosfera terrestre, ficando atrás do Ar, e o que possui o segundo menor ponto de ebulição, ficando atrás do He. É caracterizado pela alta energia de ionização, além de ser incolor, inodoro, insípido e quimicamente inerte. Para a sociedade de forma geral, talvez o uso mais conhecido do gás neônio seja o da sua utilização em placas de sinalização e avisos.",
     "symbol": "Ne",
     "xPos": 18,
     "yPos": 2,
     "electron_configuration": "1s2 2s2 2p6",
-    "ionization_energies": [
-      2080.7, 3952.3, 6122, 9371, 12177, 15238, 19999, 23069.5, 115379.5, 131432
-    ],
     "block": "p"
   },
   {
@@ -195,15 +179,11 @@
     "number": 11,
     "phase": "Sólido",
     "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_011_sodium/element_011_sodium.glb",
-    "summary": "O sódio /ˈsoʊdiəm/ é um elemento químico com símbolo Na (do grego antigo Νάτριο) e número atômico 11. É um metal macio, branco prateado e altamente reativo. ",
+    "summary": "O sódio é um elemento químico com símbolo Na e número atômico 11. É um metal macio, branco prateado e altamente reativo. O sódio metálico é utilizado na fabricação de diversos compostos químicos e na indústria metalúrgica.",
     "symbol": "Na",
     "xPos": 1,
     "yPos": 3,
     "electron_configuration": "1s2 2s2 2p6 3s1",
-    "ionization_energies": [
-      495.8, 4562, 6910.3, 9543, 13354, 16613, 20117, 25496, 28932, 141362,
-      159076
-    ],
     "block": "s"
   },
   {
@@ -216,15 +196,11 @@
     "number": 12,
     "phase": "Sólido",
     "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_012_magnesium/element_012_magnesium.glb",
-    "summary": "O magnésio é um elemento químico com símbolo Mg e número atômico 12. É um sólido cinza brilhante que apresenta uma grande semelhança física com os outros cinco elementos da segunda coluna (Grupo 2, ou metais alcalino-terrosos) da tabela periódica: cada um deles ",
+    "summary": "O magnésio é um elemento químico com símbolo Mg e número atômico 12. É um sólido cinza brilhante que apresenta uma grande semelhança física com os outros cinco elementos da segunda coluna (Grupo 2, ou metais alcalino-terrosos) da tabela periódica. É utilizado em ligas com o alumínio, destinadas a veículos espaciais e a equipamentos automotores, entre muitos outros usos.",
     "symbol": "Mg",
     "xPos": 2,
     "yPos": 3,
     "electron_configuration": "1s2 2s2 2p6 3s2",
-    "ionization_energies": [
-      737.7, 1450.7, 7732.7, 10542.5, 13630, 18020, 21711, 25661, 31653, 35458,
-      169988, 189368
-    ],
     "block": "s"
   },
   {
@@ -237,15 +213,11 @@
     "number": 13,
     "phase": "Sólido",
     "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_013_aluminum/element_013_aluminum.glb",
-    "summary": "Alumínio (ou alumínio; veja terminações diferentes) é um elemento químico do grupo do boro com símbolo Al e número atômico 13. É um metal branco prateado, macio, não magnético e dúctil. ",
+    "summary": "Alumínio é um elemento químico do grupo do boro com símbolo Al e número atômico 13. É um metal branco prateado, macio, não magnético e dúctil. O metal é utilizado na indústria automobilística, construção civil, aeroespacial, elétrica e eletrônica, na fabricação de ligas metálicas, utensílios domésticos e embalagens para alimentos.",
     "symbol": "Al",
     "xPos": 13,
     "yPos": 3,
     "electron_configuration": "1s2 2s2 2p6 3s2 3p1",
-    "ionization_energies": [
-      577.5, 1816.7, 2744.8, 11577, 14842, 18379, 23326, 27465, 31853, 38473,
-      42647, 201266, 222316
-    ],
     "block": "p"
   },
   {
@@ -258,15 +230,11 @@
     "number": 14,
     "phase": "Sólido",
     "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_014_silicon/element_014_silicon.glb",
-    "summary": "O silício é um elemento químico com símbolo Si e número atômico 14. É um semimetal tetravalente, mais reativo que o germânio, o semimetal logo abaixo dele na tabela. ",
+    "summary": "O silício é um elemento químico com símbolo Si e número atômico 14. É um semimetal tetravalente, mais reativo que o germânio, o semimetal logo abaixo dele na tabela. É utilizado como principal componente nos silicones, vidro, cimento, cerâmica. Além disso, por ser um material semicondutor abundante, a indústria eletrônica e microeletrônica utiliza o silício como um material básico para a produção de variados circuitos eletrônicos miniaturizados.",
     "symbol": "Si",
     "xPos": 14,
     "yPos": 3,
     "electron_configuration": "1s2 2s2 2p6 3s2 3p2",
-    "ionization_energies": [
-      786.5, 1577.1, 3231.6, 4355.5, 16091, 19805, 23780, 29287, 33878, 38726,
-      45962, 50502, 235196, 257923
-    ],
     "block": "p"
   },
   {
@@ -279,15 +247,11 @@
     "number": 15,
     "phase": "Sólido",
     "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_015_phosforus/element_015_phosforus.glb",
-    "summary": "O fósforo é um elemento químico com símbolo P e número atômico 15. Como elemento, o fósforo existe em duas formas principais – fósforo branco e fósforo vermelho – mas devido à sua alta reatividade, o fósforo nunca é encontrado como elemento livre na Terra. ",
+    "summary": "O fósforo é um elemento químico com símbolo P e número atômico 15. Como elemento, o fósforo existe em duas formas principais – fósforo branco e fósforo vermelho – mas devido à sua alta reatividade, o fósforo nunca é encontrado como elemento livre na Terra. Ele é um nutriente essencial aos seres vivos, e sua principal aplicação industrial é na composição de fertilizantes.",
     "symbol": "P",
     "xPos": 15,
     "yPos": 3,
     "electron_configuration": "1s2 2s2 2p6 3s2 3p3",
-    "ionization_energies": [
-      1011.8, 1907, 2914.1, 4963.6, 6273.9, 21267, 25431, 29872, 35905, 40950,
-      46261, 54110, 59024, 271791, 296195
-    ],
     "block": "p"
   },
   {
@@ -300,15 +264,11 @@
     "number": 16,
     "phase": "Sólido",
     "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_016_sulfur/element_016_sulfur.glb",
-    "summary": "Enxofre ou enxofre (ver diferenças de grafia) é um elemento químico com símbolo S e número atômico 16. É um não metal abundante e multivalente. ",
+    "summary": "Enxofre é um elemento químico com símbolo S e número atômico 16. É um não metal abundante e multivalente. Uma das principais aplicações do enxofre é como reagente na produção de ácido sulfúrico (H2SO4), um dos produtos mais utilizados pelas indústrias no mundo. Além disso, possui aplicação na vulcanização de borrachas naturais e na produção de fertilizantes, papéis, pólvora, detergentes etc.",
     "symbol": "S",
     "xPos": 16,
     "yPos": 3,
     "electron_configuration": "1s2 2s2 2p6 3s2 3p4",
-    "ionization_energies": [
-      999.6, 2252, 3357, 4556, 7004.3, 8495.8, 27107, 31719, 36621, 43177,
-      48710, 54460, 62930, 68216, 311048, 337138
-    ],
     "block": "p"
   },
   {
@@ -321,15 +281,11 @@
     "number": 17,
     "phase": "Gasoso",
     "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_017_chlorine/element_017_chlorine.glb",
-    "summary": "O cloro é um elemento químico com símbolo Cl e número atômico 17. Também possui massa atômica relativa de 35,5. ",
+    "summary": "O cloro é um elemento químico com símbolo Cl e número atômico 17. Também possui massa atômica relativa de 35,5. Pode ser utilizados como intermediários para a produção de diversos compostos essenciais para nosso cotidiano, como polímeros, resinas, medicamentos, entre outros.",
     "symbol": "Cl",
     "xPos": 17,
     "yPos": 3,
     "electron_configuration": "1s2 2s2 2p6 3s2 3p5",
-    "ionization_energies": [
-      1251.2, 2298, 3822, 5158.6, 6542, 9362, 11018, 33604, 38600, 43961, 51068,
-      57119, 63363, 72341, 78095, 352994, 380760
-    ],
     "block": "p"
   },
   {
@@ -342,15 +298,11 @@
     "number": 18,
     "phase": "Gasoso",
     "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_018_argon/element_018_argon.glb",
-    "summary": "O argônio é um elemento químico de símbolo Ar e número atômico 18. Está no grupo 18 da tabela periódica e é um gás nobre. ",
+    "summary": "O argônio é um elemento químico de símbolo Ar e número atômico 18. Está no grupo 18 da tabela periódica e é um gás nobre. Muito usado na soldagem de alumínios, o gás argônio é indicado para soldas especiais que precisam de atmosfera protetora.",
     "symbol": "Ar",
     "xPos": 18,
     "yPos": 3,
     "electron_configuration": "1s2 2s2 2p6 3s2 3p6",
-    "ionization_energies": [
-      1520.6, 2665.8, 3931, 5771, 7238, 8781, 11995, 13842, 40760, 46186, 52002,
-      59653, 66199, 72918, 82473, 88576, 397605, 427066
-    ],
     "block": "p"
   },
   {
@@ -363,15 +315,11 @@
     "number": 19,
     "phase": "Sólido",
     "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_019_potassium/element_019_potassium.glb",
-    "summary": "O potássio é um elemento químico com símbolo K (derivado do neolatim, kalium) e número atômico 19. Foi isolado pela primeira vez do potássio, as cinzas das plantas, de onde deriva seu nome. ",
+    "summary": "O potássio é um elemento químico com símbolo K e número atômico 19. É um elemento essencial às plantas, assim como à nutrição humana, atuando como cofator de muitas enzimas, é necessário para a secreção de insulina, fosforilação da creatinina e metabolismo de carboidratos e proteínas. ",
     "symbol": "K",
     "xPos": 1,
     "yPos": 4,
     "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s1",
-    "ionization_energies": [
-      418.8, 3052, 4420, 5877, 7975, 9590, 11343, 14944, 16963.7, 48610, 54490,
-      60730, 68950, 75900, 83080, 93400, 99710, 444880, 476063
-    ],
     "block": "s"
   },
   {
@@ -384,15 +332,11 @@
     "number": 20,
     "phase": "Sólido",
     "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_020_calcium/element_020_calcium.glb",
-    "summary": "O cálcio é um elemento químico com símbolo Ca e número atômico 20. O cálcio é um metal alcalino-terroso cinza macio, o quinto elemento mais abundante em massa na crosta terrestre. ",
+    "summary": "O cálcio é um elemento químico com símbolo Ca e número atômico 20. O cálcio é um metal alcalino-terroso cinza macio, o quinto elemento mais abundante em massa na crosta terrestre. Sua principal aplicação industrial é na fabricação do cimento. O cálcio é um nutriente essencial, responsável pela saúde de ossos e dentes. ",
     "symbol": "Ca",
     "xPos": 2,
     "yPos": 4,
     "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2",
-    "ionization_energies": [
-      589.8, 1145.4, 4912.4, 6491, 8153, 10496, 12270, 14206, 18191, 20385,
-      57110, 63410, 70110, 78890, 86310, 94000, 104900, 111711, 494850, 527762
-    ],
     "block": "s"
   },
   {
@@ -405,16 +349,11 @@
     "number": 21,
     "phase": "Sólido",
     "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_021_scandium/element_021_scandium.glb",
-    "summary": "O escândio é um elemento químico com símbolo Sc e número atômico 21. Um elemento metálico branco prateado do bloco d, tem sido historicamente classificado às vezes como um elemento de terras raras, junto com o ítrio e os lantanóides. ",
+    "summary": "O escândio é um elemento químico com símbolo Sc e número atômico 21. Um elemento metálico branco prateado do bloco d, tem sido historicamente classificado às vezes como um elemento de terras raras. É usado para a fabricação de lâmpadas especiais e em quadros de bicicletas caras, além de aviões de combate.",
     "symbol": "Sc",
     "xPos": 3,
     "yPos": 4,
     "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d1",
-    "ionization_energies": [
-      633.1, 1235, 2388.6, 7090.6, 8843, 10679, 13310, 15250, 17370, 21726,
-      24102, 66320, 73010, 80160, 89490, 97400, 105600, 117000, 124270, 547530,
-      582163
-    ],
     "block": "d"
   },
   {
@@ -427,16 +366,11 @@
     "number": 22,
     "phase": "Sólido",
     "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_022_titanium/element_022_titanium.glb",
-    "summary": "O titânio é um elemento químico com símbolo Ti e número atômico 22. É um metal de transição brilhante, de cor prateada, de baixa densidade e alta resistência. ",
+    "summary": "O titânio é um elemento químico com símbolo Ti e número atômico 22. É um metal de transição brilhante, de cor prateada, de baixa densidade e alta resistência. É usado na fabricação de ligas leves e resistentes que são utilizadas na fabricação de peças para motores, foguetes e aeronaves",
     "symbol": "Ti",
     "xPos": 4,
     "yPos": 4,
     "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d2",
-    "ionization_energies": [
-      658.8, 1309.8, 2652.5, 4174.6, 9581, 11533, 13590, 16440, 18530, 20833,
-      25575, 28125, 76015, 83280, 90880, 100700, 109100, 117800, 129900, 137530,
-      602930, 639294
-    ],
     "block": "d"
   },
   {
@@ -449,16 +383,11 @@
     "number": 23,
     "phase": "Sólido",
     "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_023_vanadium/element_023_vanadium.glb",
-    "summary": "O vanádio é um elemento químico com símbolo V e número atômico 23. É um metal de transição duro, cinza prateado, dúctil e maleável. ",
+    "summary": "O vanádio é um elemento químico com símbolo V e número atômico 23. É um metal de transição duro, cinza prateado, dúctil e maleável. Pelo menos 80% do vanádio obtido é utilizado para produção da liga ferrovanádio, usada na fabricação do aço e outras ligas.",
     "symbol": "V",
     "xPos": 5,
     "yPos": 4,
     "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d3",
-    "ionization_energies": [
-      650.9, 1414, 2830, 4507, 6298.7, 12363, 14530, 16730, 19860, 22240, 24670,
-      29730, 32446, 86450, 94170, 102300, 112700, 121600, 130700, 143400,
-      151440, 661050, 699144
-    ],
     "block": "d"
   },
   {
@@ -471,16 +400,11 @@
     "number": 24,
     "phase": "Sólido",
     "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_024_chromium/element_024_chromium.glb",
-    "summary": "O cromo é um elemento químico com símbolo Cr e número atômico 24. É o primeiro elemento do Grupo 6. É um metal cinza-aço, brilhante, duro e quebradiço que possui alto polimento, resiste ao embaciamento e possui alto ponto de fusão. ",
+    "summary": "O cromo é um elemento químico com símbolo Cr e número atômico 24. É o primeiro elemento do Grupo 6. É um metal cinza-aço, brilhante, duro e quebradiço que possui alto polimento, resiste ao embaciamento e possui alto ponto de fusão. É amplamente utilizado na produção de aço inoxidável, liga de ferrocromo, refratários, na indústria química e nos processos de fundição.",
     "symbol": "Cr",
     "xPos": 6,
     "yPos": 4,
     "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s1 3d5",
-    "ionization_energies": [
-      652.9, 1590.6, 2987, 4743, 6702, 8744.9, 15455, 17820, 20190, 23580,
-      26130, 28750, 34230, 37066, 97510, 105800, 114300, 125300, 134700, 144300,
-      157700, 166090, 721870, 761733
-    ],
     "block": "d"
   },
   {
@@ -493,16 +417,11 @@
     "number": 25,
     "phase": "Sólido",
     "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_025_manganese/element_025_manganese.glb",
-    "summary": "O manganês é um elemento químico com símbolo Mn e número atômico 25. Não é encontrado como elemento livre na natureza; ",
+    "summary": "O manganês é um elemento químico com símbolo Mn e número atômico 25. Não é encontrado como elemento livre na natureza. É usado na fabricação de ligas metálicas, especialmente aços, em pilhas, palitos de fósforo, vidros, fogos de artifício, na indústria química, de couro e têxtil, e como fertilizante.",
     "symbol": "Mn",
     "xPos": 7,
     "yPos": 4,
     "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d5",
-    "ionization_energies": [
-      717.3, 1509, 3248, 4940, 6990, 9220, 11500, 18770, 21400, 23960, 27590,
-      30330, 33150, 38880, 41987, 109480, 118100, 127100, 138600, 148500,
-      158600, 172500, 181380, 785450, 827067
-    ],
     "block": "d"
   },
   {
@@ -515,16 +434,11 @@
     "number": 26,
     "phase": "Sólido",
     "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_026_iron/element_026_iron.glb",
-    "summary": "O ferro é um elemento químico com símbolo Fe (do latim:ferrum) e número atômico 26. É um metal da primeira série de transição. ",
+    "summary": "O ferro é um elemento químico com símbolo Fe e número atômico 26. É um metal da primeira série de transição. A principal utilização do ferro é como matéria-prima para produção do aço, principal liga metálica desse elemento e para onde é destinado 98% do metal extraído da natureza.",
     "symbol": "Fe",
     "xPos": 8,
     "yPos": 4,
     "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d6",
-    "ionization_energies": [
-      762.5, 1561.9, 2957, 5290, 7240, 9560, 12060, 14580, 22540, 25290, 28000,
-      31920, 34830, 37840, 44100, 47206, 122200, 131000, 140500, 152600, 163000,
-      173600, 188100, 195200, 851800, 895161
-    ],
     "block": "d"
   },
   {
@@ -537,16 +451,11 @@
     "number": 27,
     "phase": "Sólido",
     "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_027_cobalt/element_027_cobalt.glb",
-    "summary": "O cobalto é um elemento químico com símbolo Co e número atômico 27. Assim como o níquel, o cobalto na crosta terrestre é encontrado apenas na forma quimicamente combinada, exceto por pequenos depósitos encontrados em ligas de ferro meteórico natural. ",
+    "summary": "O cobalto é um elemento químico com símbolo Co e número atômico 27. Assim como o níquel, o cobalto na crosta terrestre é encontrado apenas na forma quimicamente combinada, exceto por pequenos depósitos encontrados em ligas de ferro meteórico natural. A principal utilização é na produção de ligas metálicas. Vários sais de cobalto, como acetato de cobalto II ou III, naftenato e octanato, são usados como pigmentos na indústria de vidro e de cerâmica e como agente secante de tintas e vernizes.",
     "symbol": "Co",
     "xPos": 9,
     "yPos": 4,
     "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d7",
-    "ionization_energies": [
-      760.4, 1648, 3232, 4950, 7670, 9840, 12440, 15230, 17959, 26570, 29400,
-      32400, 36600, 39700, 42800, 49396, 52737, 134810, 145170, 154700, 167400,
-      178100, 189300, 204500, 214100, 920870, 966023
-    ],
     "block": "d"
   },
   {
@@ -559,16 +468,11 @@
     "number": 28,
     "phase": "Sólido",
     "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_028_nickel/element_028_nickel.glb",
-    "summary": "O níquel é um elemento químico com símbolo Ni e número atômico 28. É um metal branco prateado brilhante com um leve tom dourado. ",
+    "summary": "O níquel é um elemento químico com símbolo Ni e número atômico 28. É um metal branco prateado brilhante com um leve tom dourado. É utilizado na fabricação de aço inoxidável e aços ligados",
     "symbol": "Ni",
     "xPos": 10,
     "yPos": 4,
     "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d8",
-    "ionization_energies": [
-      737.1, 1753, 3395, 5300, 7339, 10400, 12800, 15600, 18600, 21670, 30970,
-      34000, 37100, 41500, 44800, 48100, 55101, 58570, 148700, 159000, 169400,
-      182700, 194000, 205600, 221400, 231490, 992718, 1039668
-    ],
     "block": "d"
   },
   {
@@ -581,16 +485,11 @@
     "number": 29,
     "phase": "Sólido",
     "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_029_copper/element_029_copper.glb",
-    "summary": "O cobre é um elemento químico com símbolo Cu (do latim:cuprum) e número atômico 29. É um metal macio, maleável e dúctil com altíssima condutividade térmica e elétrica. ",
+    "summary": "O cobre é um elemento químico com símbolo Cu e número atômico 29. É um metal macio, maleável e dúctil com altíssima condutividade térmica e elétrica, é utilizado na produção de materiais condutores de eletricidade (fios e cabos), bem como em ligas metálicas (latão e bronze)",
     "symbol": "Cu",
     "xPos": 11,
     "yPos": 4,
     "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s1 3d10",
-    "ionization_energies": [
-      745.5, 1957.9, 3555, 5536, 7700, 9900, 13400, 16000, 19200, 22400, 25600,
-      35600, 38700, 42000, 46700, 50200, 53700, 61100, 64702, 163700, 174100,
-      184900, 198800, 210500, 222700, 239100, 249660, 1067358, 1116105
-    ],
     "block": "d"
   },
   {
@@ -603,15 +502,11 @@
     "number": 30,
     "phase": "Sólido",
     "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_030_zinc/element_030_zinc.glb",
-    "summary": "O zinco, no comércio também spelter, é um elemento químico com símbolo Zn e número atômico 30. É o primeiro elemento do grupo 12 da tabela periódica. ",
+    "summary": "O zinco, é um elemento químico com símbolo Zn e número atômico 30. É o primeiro elemento do grupo 12 da tabela periódica. Tem muitos usos na indústria automobilística, de construção civil e de eletrodomésticos. É usado na fabricação de ligas resistentes à corrosão e na galvanização de produtos de ferro e aço.",
     "symbol": "Zn",
     "xPos": 12,
     "yPos": 4,
     "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10",
-    "ionization_energies": [
-      906.4, 1733.3, 3833, 5731, 7970, 10400, 12900, 16800, 19600, 23000, 26400,
-      29990, 40490, 43800, 47300, 52300, 55900, 59700, 67300, 71200, 179100
-    ],
     "block": "d"
   },
   {
@@ -624,12 +519,11 @@
     "number": 31,
     "phase": "Sólido",
     "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_031_gallium/element_031_gallium.glb",
-    "summary": "O gálio é um elemento químico com símbolo Ga e número atômico 31. O gálio elementar não ocorre na forma livre na natureza, mas como os compostos de gálio (III) que estão em pequenas quantidades nos minérios de zinco e na bauxita. ",
+    "summary": "O gálio é um elemento químico com símbolo Ga e número atômico 31. O gálio elementar não ocorre na forma livre na natureza, mas como os compostos de gálio (III) que estão em pequenas quantidades nos minérios de zinco e na bauxita. Sua principal aplicação está na indústria de semicondutores, sendo utilizado para a produção de laser, LED, smartphones, telas de computador e televisão, entre outros.",
     "symbol": "Ga",
     "xPos": 13,
     "yPos": 4,
     "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p1",
-    "ionization_energies": [578.8, 1979.3, 2963, 6180],
     "block": "p"
   },
   {
@@ -642,11 +536,11 @@
     "number": 32,
     "phase": "Sólido",
     "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_032_germanium/element_032_germanium.glb",
+    "summary": "O germânio é um elemento químico de símbolo Ge , número atômico 32 (32 prótons e 32 elétrons) com massa atómica 72u. Sua aplicação principal é como semicondutor em eletrônica, produção de fibras ópticas e equipamentos de visão noturna.",
     "symbol": "Ge",
     "xPos": 14,
     "yPos": 4,
     "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p2",
-    "ionization_energies": [762, 1537.5, 3302.1, 4411, 9020],
     "block": "p"
   },
   {
@@ -659,12 +553,11 @@
     "number": 33,
     "phase": "Sólido",
     "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_033_arsenic/element_033_arsenic.glb",
-    "summary": "O arsênico é um elemento químico com símbolo As e número atômico 33. O arsênico ocorre em muitos minerais, geralmente em conjunto com enxofre e metais, e também como um cristal elementar puro. ",
+    "summary": "O arsênio é um elemento químico com símbolo As e número atômico 33. O arsênio ocorre em muitos minerais, geralmente em conjunto com enxofre e metais, e também como um cristal elementar puro. O arsênio metálico é utilizado na produção de ligas não-ferrosas e outros compostos para fabricação de semicondutores, incluindo diodos de emissão de luz, lasers, circuitos integrados e células solares.",
     "symbol": "As",
     "xPos": 15,
     "yPos": 4,
     "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p3",
-    "ionization_energies": [947, 1798, 2735, 4837, 6043, 12310],
     "block": "p"
   },
   {
@@ -677,12 +570,11 @@
     "number": 34,
     "phase": "Sólido",
     "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_034_selenium/element_034_selenium.glb",
-    "summary": "O selênio é um elemento químico com símbolo Se e número atômico 34. É um não-metal com propriedades intermediárias entre as de seus elementos calcógenos adjacentes à coluna da tabela periódica, enxofre e telúrio. ",
+    "summary": "O selênio é um elemento químico com símbolo Se e número atômico 34. É um não-metal com propriedades intermediárias entre as de seus elementos calcógenos adjacentes à coluna da tabela periódica, enxofre e telúrio. É empregado em painéis solares, sistemas de impressão e como nutriente essencial à saúde humana. O selênio é um nutriente essencial ao funcionamento adequado do organismo.",
     "symbol": "Se",
     "xPos": 16,
     "yPos": 4,
     "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p4",
-    "ionization_energies": [941, 2045, 2973.7, 4144, 6590, 7880, 14990],
     "block": "p"
   },
   {
@@ -695,12 +587,11 @@
     "number": 35,
     "phase": "Líquido",
     "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_035_bromine/element_035_bromine.glb",
-    "summary": "Bromo (do grego antigo: βρῶμος, brómos, que significa \"fedor\") é um elemento químico com símbolo Br e número atômico 35. É um halogênio. ",
+    "summary": "Bromo é um elemento químico com símbolo Br e número atômico 35. É um halogênio. O bromo é empregado na fabricação de produtos de pulverização, agentes não inflamáveis, produtos para a purificação de águas, corantes, brometos empregados em fotografia (brometo de prata, AgBr), desinfetantes, inseticidas e outros.",
     "symbol": "Br",
     "xPos": 17,
     "yPos": 4,
     "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p5",
-    "ionization_energies": [1139.9, 2103, 3470, 4560, 5760, 8550, 9940, 18600],
     "block": "p"
   },
   {
@@ -713,16 +604,11 @@
     "number": 36,
     "phase": "Gasoso",
     "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_036_krypton/element_036_krypton.glb",
-    "summary": "Krypton (do grego: κρυπτός kryptos \"o oculto\") é um elemento químico com símbolo Kr e número atômico 36. É membro do grupo 18 (gases nobres) de elementos. ",
+    "summary": "Criptônio é um elemento químico com símbolo Kr e número atômico 36. É membro do grupo 18 (gases nobres) de elementos. O criptônio pode ser utilizado em lâmpadas incandescentes que tenham filamento de tungstênio. A ideia é retardar a evaporação do filamento, fazendo com que a lâmpada apresente maior durabilidade, brilho e eficiência.",
     "symbol": "Kr",
     "xPos": 18,
     "yPos": 4,
     "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6",
-    "ionization_energies": [
-      1350.8, 2350.4, 3565, 5070, 6240, 7570, 10710, 12138, 22274, 25880, 29700,
-      33800, 37700, 43100, 47500, 52200, 57100, 61800, 75800, 80400, 85300,
-      90400, 96300, 101400, 111100, 116290, 282500, 296200, 311400, 326200
-    ],
     "block": "p"
   },
   {
@@ -735,14 +621,11 @@
     "number": 37,
     "phase": "Sólido",
     "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_037_rubidium/element_037_rubidium.glb",
-    "summary": "Rubídio é um elemento químico com símbolo Rb e número atômico 37. Rubídio é um elemento metálico macio, branco prateado, do grupo dos metais alcalinos, com massa atômica de 85,4678. ",
+    "summary": "Rubídio é um elemento químico com símbolo Rb e número atômico 37. Rubídio é um elemento metálico macio, branco prateado, do grupo dos metais alcalinos, com massa atômica de 85,4678. É usado como combustível espacial. Dentre as outras utilizações do metal Rubídio se destaca a utilização em tubos de vácuo, como células fotoelétricas. ",
     "symbol": "Rb",
     "xPos": 1,
     "yPos": 5,
     "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s1",
-    "ionization_energies": [
-      403, 2633, 3860, 5080, 6850, 8140, 9570, 13120, 14500, 26740
-    ],
     "block": "s"
   },
   {
@@ -755,14 +638,11 @@
     "number": 38,
     "phase": "Sólido",
     "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_038_strontium/element_038_strontium.glb",
-    "summary": "O estrôncio é um elemento químico com símbolo Sr e número atômico 38. Um metal alcalino-terroso, o estrôncio é um elemento metálico branco prateado ou amarelado macio que é altamente reativo quimicamente. ",
+    "summary": "O estrôncio é um elemento químico com símbolo Sr e número atômico 38. Um metal alcalino-terroso, o estrôncio é um elemento metálico branco prateado ou amarelado macio que é altamente reativo quimicamente. O estrôncio é utilizado na confecção de fogos de artifício. Em aplicação industrial, carbonato de estrôncio é sinterizado (pulverizado e aquecido) com óxido de ferro para formar ímãs de ferrite (ou cerâmica), usados em ímãs de geladeira, alto-falantes e pequenos motores elétricos.",
     "symbol": "Sr",
     "xPos": 2,
     "yPos": 5,
     "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2",
-    "ionization_energies": [
-      549.5, 1064.2, 4138, 5500, 6910, 8760, 10230, 11800, 15600, 17100, 31270
-    ],
     "block": "s"
   },
   {
@@ -775,15 +655,11 @@
     "number": 39,
     "phase": "Sólido",
     "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_039_yttrium/element_039_yttrium.glb",
-    "summary": "O ítrio é um elemento químico com símbolo Y e número atômico 39. É um metal de transição metálico prateado quimicamente semelhante aos lantanídeos e tem sido frequentemente classificado como um \"elemento terras raras\". ",
+    "summary": "O ítrio é um elemento químico com símbolo Y e número atômico 39. É um metal de transição metálico prateado quimicamente semelhante aos lantanídeos e tem sido frequentemente classificado como um \"elemento de terras raras\". Compostos de ítrio, como o Y2O3, têm propriedades luminescentes (emitem luz mediante um estímulo, como uma radiação ionizante), sendo também conhecidos como fósforos. Fósforos de ítrio eram aplicados nos tubos de televisores coloridos para a produção das cores primárias verde, azul e vermelho.",
     "symbol": "Y",
     "xPos": 3,
     "yPos": 5,
     "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d1",
-    "ionization_energies": [
-      600, 1180, 1980, 5847, 7430, 8970, 11190, 12450, 14110, 18400, 19900,
-      36090
-    ],
     "block": "d"
   },
   {
@@ -796,12 +672,11 @@
     "number": 40,
     "phase": "Sólido",
     "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_040_zirconium/element_040_zirconium.glb",
-    "summary": "O zircônio é um elemento químico com símbolo Zr e número atômico 40. O nome do zircônio vem do nome do mineral zircão, a fonte mais importante de zircônio. ",
+    "summary": "O zircônio é um elemento químico com símbolo Zr e número atômico 40. O nome do zircônio vem do nome do mineral zircão, a fonte mais importante de zircônio. O zircônio tem grande aplicação na indústria nuclear, pois sua baixa absorção de nêutrons faz dele um excelente revestimento para o combustível, rico em dióxido de urânio. Além disso, por ser considerado atóxico e muito biocompatível, o zircônio é aplicado em próteses e implantes cirúrgicos.",
     "symbol": "Zr",
     "xPos": 4,
     "yPos": 5,
     "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d2",
-    "ionization_energies": [640.1, 1270, 2218, 3313, 7752, 9500],
     "block": "d"
   },
   {
@@ -814,12 +689,10 @@
     "number": 41,
     "phase": "Sólido",
     "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_041_niobium/element_041_niobium.glb",
-    "summary": "Nióbio, anteriormente columbio, é um elemento químico com símbolo Nb (anteriormente Cb) e número atômico 41. É um metal de transição macio, cinza e dúctil, frequentemente encontrado no mineral pirocloro, a principal fonte comercial de nióbio, e na columbita. ",
-    "symbol": "Nb",
+    "summary": "Nióbio, é um elemento químico com símbolo Nb e número atômico 41. Um metal de transição usado principalmente em ligas de aço para melhorar a resistência e a resistência à corrosão, especialmente em tubulações de gás e petróleo.",
     "xPos": 5,
     "yPos": 5,
     "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s1 4d4",
-    "ionization_energies": [652.1, 1380, 2416, 3700, 4877, 9847, 12100],
     "block": "d"
   },
   {
@@ -832,16 +705,11 @@
     "number": 42,
     "phase": "Sólido",
     "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_042_molybdenum/element_042_molybdenum.glb",
-    "summary": "O molibdênio é um elemento químico com símbolo Mo e número atômico 42. O nome vem do neolatim molibdaenum, do grego antigo Μόλυβδος molybdos, que significa chumbo, já que seus minérios foram confundidos com minérios de chumbo. ",
+    "summary": "O molibdênio é um elemento químico com símbolo Mo e número atômico 42. É utilizado em ligas de aço para aumentar a dureza, resistência ao calor e à corrosão, sendo essencial em componentes industriais e equipamentos aeroespaciais.",
     "symbol": "Mo",
     "xPos": 6,
     "yPos": 5,
     "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s1 4d5",
-    "ionization_energies": [
-      684.3, 1560, 2618, 4480, 5257, 6640.8, 12125, 13860, 15835, 17980, 20190,
-      22219, 26930, 29196, 52490, 55000, 61400, 67700, 74000, 80400, 87000,
-      93400, 98420, 104400, 121900, 127700, 133800, 139800, 148100, 154500
-    ],
     "block": "d"
   },
   {
@@ -854,12 +722,11 @@
     "number": 43,
     "phase": "Sólido",
     "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_043_technetium/element_043_technetium.glb",
-    "summary": "Tecnécio (/tɛkˈniːʃiəm/) é um elemento químico com símbolo Tc e número atômico 43. É o elemento com menor número atômico na tabela periódica que não possui isótopos estáveis: todas as suas formas são radioativas. ",
+    "summary": "Tecnécio é um elemento químico com símbolo Tc e número atômico 43. Utilizado em medicina nuclear para diagnósticos de imagem, como na cintilografia, devido à sua radioatividade.",
     "symbol": "Tc",
     "xPos": 7,
     "yPos": 5,
     "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d5",
-    "ionization_energies": [702, 1470, 2850],
     "block": "d"
   },
   {
@@ -872,12 +739,11 @@
     "number": 44,
     "phase": "Sólido",
     "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_044_ruthenium/element_044_ruthenium.glb",
-    "summary": "O rutênio é um elemento químico com símbolo Ru e número atômico 44. É um metal de transição raro pertencente ao grupo da platina da tabela periódica. ",
+    "summary": "O rutênio é um metal raro com símbolo Ru e número atômico 44. Usado em ligas de platina e paládio para contatos elétricos e eletrodos de reatores químicos devido à sua resistência à corrosão.",
     "symbol": "Ru",
     "xPos": 8,
     "yPos": 5,
     "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s1 4d7",
-    "ionization_energies": [710.2, 1620, 2747],
     "block": "d"
   },
   {
@@ -890,12 +756,11 @@
     "number": 45,
     "phase": "Sólido",
     "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_045_rhodium/element_045_rhodium.glb",
-    "summary": "O ródio é um elemento químico com símbolo Rh e número atômico 45. É um metal de transição raro, branco prateado, duro e quimicamente inerte. ",
+    "summary": "Ródio é um metal de transição raro com símbolo Rh e número atômico 45. Aplicado principalmente em catalisadores automotivos para reduzir emissões de gases nocivos, além de ser usado em joias.",
     "symbol": "Rh",
     "xPos": 9,
     "yPos": 5,
     "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s1 4d8",
-    "ionization_energies": [719.7, 1740, 2997],
     "block": "d"
   },
   {
@@ -908,12 +773,11 @@
     "number": 46,
     "phase": "Sólido",
     "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_046_palladium/element_046_palladium.glb",
-    "summary": "Paládio é um elemento químico com símbolo Pd e número atômico 46. É um metal branco prateado raro e brilhante descoberto em 1803 por William Hyde Wollaston. ",
+    "summary": "Paládio é um metal branco prateado com símbolo Pd e número atômico 46. Utilizado em catalisadores automotivos e eletrônicos, assim como em joalheria e em odontologia.",
     "symbol": "Pd",
     "xPos": 10,
     "yPos": 5,
     "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 4d10",
-    "ionization_energies": [804.4, 1870, 3177],
     "block": "d"
   },
   {
@@ -926,12 +790,11 @@
     "number": 47,
     "phase": "Sólido",
     "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_047_silver/element_047_silver.glb",
-    "summary": "A prata é um elemento químico com símbolo Ag (grego: άργυρος árguros, latim: argentum, ambos da raiz indo-europeia *h₂erǵ- para \"cinza\" ou \"brilhante\") e número atômico 47. Um metal de transição macio, branco e brilhante ",
+    "summary": "Prata é um metal de transição com símbolo Ag e número atômico 47. Usada em joias, moedas, eletrônicos e na produção de espelhos devido à sua alta condutividade elétrica e brilho.",
     "symbol": "Ag",
     "xPos": 11,
     "yPos": 5,
     "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s1 4d10",
-    "ionization_energies": [731, 2070, 3361],
     "block": "d"
   },
   {
@@ -944,12 +807,11 @@
     "number": 48,
     "phase": "Sólido",
     "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_048_cadmium/element_048_cadmium.glb",
-    "summary": "O cádmio é um elemento químico com símbolo Cd e número atômico 48. Este metal macio, branco-azulado, é quimicamente semelhante aos outros dois metais estáveis ​​do grupo 12, zinco e mercúrio. ",
+    "summary": "O cádmio é um metal macio com símbolo Cd e número atômico 48. Empregado em baterias recarregáveis (Ni-Cd) e em revestimentos anticorrosivos, embora seu uso seja restrito devido à toxicidade.",
     "symbol": "Cd",
     "xPos": 12,
     "yPos": 5,
     "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10",
-    "ionization_energies": [867.8, 1631.4, 3616],
     "block": "d"
   },
   {
@@ -962,12 +824,11 @@
     "number": 49,
     "phase": "Sólido",
     "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_049_indium/element_049_indium.glb",
-    "summary": "O índio é um elemento químico com símbolo In e número atômico 49. É um elemento metálico pós-transição raro na crosta terrestre. ",
+    "summary": "O índio é um metal raro com símbolo In e número atômico 49. Utilizado em ligas, revestimentos de telas LCD e semicondutores devido às suas propriedades eletrônicas e de baixa fusão.",
     "symbol": "In",
     "xPos": 13,
     "yPos": 5,
     "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p1",
-    "ionization_energies": [558.3, 1820.7, 2704, 5210],
     "block": "p"
   },
   {
@@ -980,12 +841,11 @@
     "number": 50,
     "phase": "Sólido",
     "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_050_tin/element_050_tin.glb",
-    "summary": "O estanho é um elemento químico com símbolo Sn (do latim: stannum) e número atômico 50. É um metal do grupo principal do grupo 14 da tabela periódica. ",
+    "summary": "Estanho é um metal com símbolo Sn e número atômico 50. Usado principalmente em ligas e para solda.",
     "symbol": "Sn",
     "xPos": 14,
     "yPos": 5,
     "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p2",
-    "ionization_energies": [708.6, 1411.8, 2943, 3930.3, 7456],
     "block": "p"
   },
   {
@@ -998,12 +858,11 @@
     "number": 51,
     "phase": "Sólido",
     "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_051_antimony/element_051_antimony.glb",
-    "summary": "O antimônio é um elemento químico com símbolo Sb (do latim: stibium) e número atômico 51. Um semimetal cinza brilhante, é encontrado na natureza principalmente como o mineral sulfeto estibnita (Sb2S3). ",
+    "summary": "O antimônio é um semimetal com símbolo Sb e número atômico 51. Usado em ligas para aumentar a dureza e em semicondutores, além de ser aplicado em retardadores de chama.",
     "symbol": "Sb",
     "xPos": 15,
     "yPos": 5,
     "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p3",
-    "ionization_energies": [834, 1594.9, 2440, 4260, 5400, 10400],
     "block": "p"
   },
   {
@@ -1016,12 +875,11 @@
     "number": 52,
     "phase": "Sólido",
     "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_052_tellurium/element_052_tellurium.glb",
-    "summary": "Telúrio é um elemento químico com símbolo Te e número atômico 52. É um semimetal branco prateado, frágil, levemente tóxico. ",
+    "summary": "Telúrio é um semimetal branco prateado com símbolo Te e número atômico 52. Utilizado em ligas metálicas para melhorar a resistência e em dispositivos termoelétricos.",
     "symbol": "Te",
     "xPos": 16,
     "yPos": 5,
     "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p4",
-    "ionization_energies": [869.3, 1790, 2698, 3610, 5668, 6820, 13200],
     "block": "p"
   },
   {
@@ -1034,12 +892,11 @@
     "number": 53,
     "phase": "Sólido",
     "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_053_iodine/element_053_iodine.glb",
-    "summary": "O iodo é um elemento químico com símbolo I e número atômico 53. O nome vem do grego ἰοειδής ioeidēs, que significa violeta ou roxo, devido à cor do vapor de iodo. ",
+    "summary": "O iodo é um halogênio com símbolo I e número atômico 53. Aplicado em medicina (antissépticos e tratamentos de tireoide) e na produção de contrastes radiológicos.",
     "symbol": "I",
     "xPos": 17,
     "yPos": 5,
     "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p5",
-    "ionization_energies": [1008.4, 1845.9, 3180],
     "block": "p"
   },
   {
@@ -1052,12 +909,11 @@
     "number": 54,
     "phase": "Gasoso",
     "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_054_xenon/element_054_xenon.glb",
-    "summary": "O xenônio é um elemento químico com símbolo Xe e número atômico 54. É um gás nobre incolor, denso e inodoro, que ocorre na atmosfera terrestre em pequenas quantidades. ",
+    "summary": "Xenônio é um gás nobre com símbolo Xe e número atômico 54. Utilizado em lâmpadas de alta intensidade, como lâmpadas de flash, faróis automotivos e anestesia médica.",
     "symbol": "Xe",
     "xPos": 18,
     "yPos": 5,
     "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6",
-    "ionization_energies": [1170.4, 2046.4, 3099.4],
     "block": "p"
   },
   {
@@ -1070,12 +926,11 @@
     "number": 55,
     "phase": "Sólido",
     "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_055_cesium/element_055_cesium.glb",
-    "summary": "Césio ou césio é um elemento químico com símbolo Cs e número atômico 55. É um metal alcalino macio, prateado-ouro, com ponto de fusão de 28 °C (82 °F), o que o torna um dos cinco metais elementares que são ",
+    "summary": "Césio é um metal alcalino macio com símbolo Cs e número atômico 55. Usado em relógios atômicos para referência de precisão de tempo e em perfuração de poços de petróleo.",
     "symbol": "Cs",
     "xPos": 1,
     "yPos": 6,
     "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s1",
-    "ionization_energies": [375.7, 2234.3, 3400],
     "block": "s"
   },
   {
@@ -1088,12 +943,11 @@
     "number": 56,
     "phase": "Sólido",
     "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_056_barium/element_056_barium.glb",
-    "summary": "O bário é um elemento químico com símbolo Ba e número atômico 56. É o quinto elemento do Grupo 2, um metal alcalino-terroso metálico prateado macio. ",
+    "summary": "Bário é um metal alcalino-terroso com símbolo Ba e número atômico 56. Utilizado em radiografias do sistema digestivo e em fogos de artifício para produzir cor verde.",
     "symbol": "Ba",
     "xPos": 2,
     "yPos": 6,
     "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2",
-    "ionization_energies": [502.9, 965.2, 3600],
     "block": "s"
   },
   {
@@ -1106,12 +960,11 @@
     "number": 57,
     "phase": "Sólido",
     "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_057_lanthanum/element_057_lanthanum.glb",
-    "summary": "O lantânio é um elemento químico metálico macio, dúctil, branco prateado, com símbolo La e número atômico 57. Ele mancha rapidamente quando exPosto ao ar e é macio o suficiente para ser cortado com uma faca. ",
+    "summary": "Lantânio é um metal macio com símbolo La e número atômico 57. Usado em baterias recarregáveis de níquel-hidreto e em catalisadores para refino de petróleo.",
     "symbol": "La",
     "xPos": 3,
     "yPos": 9,
     "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 5d1",
-    "ionization_energies": [538.1, 1067, 1850.3, 4819, 5940],
     "block": "f"
   },
   {
@@ -1124,12 +977,11 @@
     "number": 58,
     "phase": "Sólido",
     "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_058_cerium/element_058_cerium.glb",
-    "summary": "O cério é um elemento químico com símbolo Ce e número atômico 58. É um metal macio, prateado e dúctil que se oxida facilmente no ar. ",
+    "summary": "O cério é um metal com símbolo Ce e número atômico 58. Utilizado em polidores de vidro, catalisadores automotivos e na produção de ligas metálicas.",
     "symbol": "Ce",
     "xPos": 4,
     "yPos": 9,
     "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 5d1 4f1",
-    "ionization_energies": [534.4, 1050, 1949, 3547, 6325, 7490],
     "block": "f"
   },
   {
@@ -1142,12 +994,11 @@
     "number": 59,
     "phase": "Sólido",
     "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_059_praseodymium/element_059_praseodymium.glb",
-    "summary": "O praseodímio é um elemento químico com símbolo Pr e número atômico 59. O praseodímio é um metal macio, prateado, maleável e dúctil do grupo dos lantanídeos. ",
+    "summary": "Praseodímio é um metal de terras raras com símbolo Pr e número atômico 59. Utilizado em ligas para ímãs permanentes e em óculos de soldador para proteção ocular.",
     "symbol": "Pr",
     "xPos": 5,
     "yPos": 9,
     "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f3",
-    "ionization_energies": [527, 1020, 2086, 3761, 5551],
     "block": "f"
   },
   {
@@ -1160,12 +1011,11 @@
     "number": 60,
     "phase": "Sólido",
     "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_060_neodymium/element_060_neodymium.glb",
-    "summary": "O neodímio é um elemento químico com símbolo Nd e número atômico 60. É um metal prateado macio que mancha com o ar. ",
+    "summary": "Neodímio é um metal com símbolo Nd e número atômico 60. Utilizado na fabricação de ímãs permanentes poderosos, amplamente aplicados em motores elétricos e discos rígidos.",
     "symbol": "Nd",
     "xPos": 6,
     "yPos": 9,
     "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f4",
-    "ionization_energies": [533.1, 1040, 2130, 3900],
     "block": "f"
   },
   {
@@ -1178,12 +1028,11 @@
     "number": 61,
     "phase": "Sólido",
     "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_061_promethium/element_061_promethium.glb",
-    "summary": "Promécio, originalmente prometheum, é um elemento químico com símbolo Pm e número atômico 61. Todos os seus isótopos são radioativos; ",
+    "summary": "Promécio é um elemento radioativo com símbolo Pm e número atômico 61. Utilizado em baterias atômicas e em dispositivos de medição de espessura de materiais.",
     "symbol": "Pm",
     "xPos": 7,
     "yPos": 9,
     "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f5",
-    "ionization_energies": [540, 1050, 2150, 3970],
     "block": "f"
   },
   {
@@ -1196,12 +1045,11 @@
     "number": 62,
     "phase": "Sólido",
     "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_062_samarium/element_062_samarium.glb",
-    "summary": "Samário é um elemento químico com símbolo Sm e número atômico 62. É um metal prateado moderadamente duro que oxida facilmente no ar. ",
+    "summary": "Samário é um metal de terras raras com símbolo Sm e número atômico 62. Utilizado em ímãs permanentes de alta temperatura e em reatores nucleares.",
     "symbol": "Sm",
     "xPos": 8,
     "yPos": 9,
     "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f6",
-    "ionization_energies": [544.5, 1070, 2260, 3990],
     "block": "f"
   },
   {
@@ -1214,12 +1062,11 @@
     "number": 63,
     "phase": "Sólido",
     "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_063_europium/element_063_europium.glb",
-    "summary": "O európio é um elemento químico com símbolo Eu e número atômico 63. Foi isolado em 1901 e leva o nome do continente europeu. ",
+    "summary": "Európio é um metal de terras raras com símbolo Eu e número atômico 63. Utilizado em fósforos para telas de televisão e lâmpadas fluorescentes.",
     "symbol": "Eu",
     "xPos": 9,
     "yPos": 9,
     "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f7",
-    "ionization_energies": [547.1, 1085, 2404, 4120],
     "block": "f"
   },
   {
@@ -1232,12 +1079,11 @@
     "number": 64,
     "phase": "Sólido",
     "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_064_gadolinium/element_064_gadolinium.glb",
-    "summary": "O gadolínio é um elemento químico com símbolo Gd e número atômico 64. É um metal de terras raras branco prateado, maleável e dúctil. ",
+    "summary": "Gadolínio é um metal de terras raras com símbolo Gd e número atômico 64. Utilizado em contraste para ressonância magnética e em materiais absorvedores de nêutrons em reatores nucleares.",
     "symbol": "Gd",
     "xPos": 10,
     "yPos": 9,
     "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f7 5d1",
-    "ionization_energies": [593.4, 1170, 1990, 4250],
     "block": "f"
   },
   {
@@ -1250,12 +1096,11 @@
     "number": 65,
     "phase": "Sólido",
     "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_065_terbium/element_065_terbium.glb",
-    "summary": "O térbio é um elemento químico com símbolo Tb e número atômico 65. É um metal de terras raras branco prateado que é maleável, dúctil e macio o suficiente para ser cortado com uma faca. ",
+    "summary": "O térbio é um elemento químico com símbolo Tb e número atômico 65. É utilizado em ligas para melhorar a resistência a altas temperaturas e em fósforos para monitores de TV e lâmpadas fluorescentes.",
     "symbol": "Tb",
     "xPos": 11,
     "yPos": 9,
     "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f9",
-    "ionization_energies": [565.8, 1110, 2114, 3839],
     "block": "f"
   },
   {
@@ -1268,12 +1113,11 @@
     "number": 66,
     "phase": "Sólido",
     "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_066_dysprosium/element_066_dysprosium.glb",
-    "summary": "O disprósio é um elemento químico com símbolo Dy e número atômico 66. É um elemento de terras raras com brilho prateado metálico. ",
+    "summary": "O disprósio, com símbolo Dy e número atômico 66, é usado em imãs permanentes e em materiais de absorção de nêutrons em reatores nucleares.",
     "symbol": "Dy",
     "xPos": 12,
     "yPos": 9,
     "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f10",
-    "ionization_energies": [573, 1130, 2200, 3990],
     "block": "f"
   },
   {
@@ -1286,12 +1130,11 @@
     "number": 67,
     "phase": "Sólido",
     "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_067_holmium/element_067_holmium.glb",
-    "summary": "O hólmio é um elemento químico com símbolo Ho e número atômico 67. Parte da série dos lantanídeos, o hólmio é um elemento de terras raras. ",
+    "summary": "O hólmio é um elemento de terras raras com símbolo Ho e número atômico 67, utilizado em imãs de alta potência e em lasers médicos.",
     "symbol": "Ho",
     "xPos": 13,
     "yPos": 9,
     "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f11",
-    "ionization_energies": [581, 1140, 2204, 4100],
     "block": "f"
   },
   {
@@ -1304,12 +1147,11 @@
     "number": 68,
     "phase": "Sólido",
     "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_068_erbium/element_068_erbium.glb",
-    "summary": "O érbio é um elemento químico da série dos lantanídeos, com símbolo Er e número atômico 68. Metal sólido branco-prateado quando isolado artificialmente, o érbio natural é sempre encontrado em combinação química com outros elementos na Terra. ",
+    "summary": "O érbio (símbolo Er, número atômico 68) é usado em fibras ópticas para amplificação de sinais e em lasers cirúrgicos.",
     "symbol": "Er",
     "xPos": 14,
     "yPos": 9,
     "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f12",
-    "ionization_energies": [589.3, 1150, 2194, 4120],
     "block": "f"
   },
   {
@@ -1322,12 +1164,11 @@
     "number": 69,
     "phase": "Sólido",
     "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_069_thulium/element_069_thulium.glb",
-    "summary": "Túlio é um elemento químico com símbolo Tm e número atômico 69. É o décimo terceiro e antepenúltimo (terceiro último) elemento da série dos lantanídeos. ",
+    "summary": "O túlio, símbolo Tm e número atômico 69, tem aplicação em geradores de raios-X portáteis e em dispositivos de segurança.",
     "symbol": "Tm",
     "xPos": 15,
     "yPos": 9,
     "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f13",
-    "ionization_energies": [596.7, 1160, 2285, 4120],
     "block": "f"
   },
   {
@@ -1340,12 +1181,11 @@
     "number": 70,
     "phase": "Sólido",
     "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_070_ytterbium/element_070_ytterbium.glb",
-    "summary": "O itérbio é um elemento químico com símbolo Yb e número atômico 70. É o décimo quarto e penúltimo elemento da série dos lantanídeos, que é a base da relativa estabilidade de seu estado de oxidação +2. ",
+    "summary": "O itérbio (símbolo Yb, número atômico 70) é utilizado em lasers de alta potência e como dopante em fibras ópticas.",
     "symbol": "Yb",
     "xPos": 16,
     "yPos": 9,
     "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14",
-    "ionization_energies": [603.4, 1174.8, 2417, 4203],
     "block": "f"
   },
   {
@@ -1358,12 +1198,11 @@
     "number": 71,
     "phase": "Sólido",
     "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_071_lutetium/element_071_lutetium.glb",
-    "summary": "O lutécio é um elemento químico com símbolo Lu e número atômico 71. É um metal branco prateado, que resiste à corrosão no ar seco, mas não no ar úmido. ",
+    "summary": "O lutécio, símbolo Lu e número atômico 71, é usado como catalisador em refino de petróleo e em detectores de raios-X.",
     "symbol": "Lu",
     "xPos": 17,
     "yPos": 9,
     "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d1",
-    "ionization_energies": [523.5, 1340, 2022.3, 4370, 6445],
     "block": "d"
   },
   {
@@ -1376,12 +1215,11 @@
     "number": 72,
     "phase": "Sólido",
     "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_072_hafnium/element_072_hafnium.glb",
-    "summary": "O háfnio é um elemento químico com símbolo Hf e número atômico 72. Um metal de transição tetravalente, brilhante, cinza prateado, o háfnio se assemelha quimicamente ao zircônio e é encontrado em minerais de zircônio. ",
+    "summary": "O háfnio, símbolo Hf e número atômico 72, é utilizado em ligas para reatores nucleares e em equipamentos de corte de plasma.",
     "symbol": "Hf",
     "xPos": 4,
     "yPos": 6,
     "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d2",
-    "ionization_energies": [658.5, 1440, 2250, 3216],
     "block": "d"
   },
   {
@@ -1394,12 +1232,11 @@
     "number": 73,
     "phase": "Sólido",
     "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_073_tantalum/element_073_tantalum.glb",
-    "summary": "O tântalo é um elemento químico com símbolo Ta e número atômico 73. Anteriormente conhecido como tântalo, seu nome vem de Tântalo, um anti-herói da mitologia grega. ",
+    "summary": "O tântalo (símbolo Ta, número atômico 73) é amplamente usado em eletrônicos, como capacitores e componentes de alta temperatura.",
     "symbol": "Ta",
     "xPos": 5,
     "yPos": 6,
     "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d3",
-    "ionization_energies": [761, 1500],
     "block": "d"
   },
   {
@@ -1412,12 +1249,11 @@
     "number": 74,
     "phase": "Sólido",
     "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_074_tungsten/element_074_tungsten.glb",
-    "summary": "O tungstênio, também conhecido como volfrâmio, é um elemento químico com símbolo W e número atômico 74. A palavra tungstênio vem da língua sueca tung sten, que se traduz diretamente como pedra pesada. ",
+    "summary": "O tungstênio (símbolo W, número atômico 74), conhecido por sua alta densidade, é usado em filamentos de lâmpadas e em ferramentas de corte.",
     "symbol": "W",
     "xPos": 6,
     "yPos": 6,
     "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d4",
-    "ionization_energies": [770, 1700],
     "block": "d"
   },
   {
@@ -1430,12 +1266,11 @@
     "number": 75,
     "phase": "Sólido",
     "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_075_rhenium/element_075_rhenium.glb",
-    "summary": "O rênio é um elemento químico com símbolo Re e número atômico 75. É um metal de transição branco prateado, pesado, da terceira linha do grupo 7 da tabela periódica. ",
+    "summary": "O rênio (símbolo Re, número atômico 75) é empregado em ligas de superligas para motores a jato e em catalisadores de refino de petróleo.",
     "symbol": "Re",
     "xPos": 7,
     "yPos": 6,
     "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d5",
-    "ionization_energies": [760, 1260, 2510, 3640],
     "block": "d"
   },
   {
@@ -1448,12 +1283,11 @@
     "number": 76,
     "phase": "Sólido",
     "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_076_osmium/element_076_osmium.glb",
-    "summary": "Ósmio (do grego osme (ὀσμή) que significa \"cheiro\") é um elemento químico com símbolo Os e número atômico 76. É um metal de transição duro, quebradiço, branco-azulado do grupo da platina, encontrado como oligoelemento em ligas. ",
+    "summary": "O ósmio (símbolo Os, número atômico 76) é usado em ligas duras para instrumentos cirúrgicos e contatos elétricos de alta durabilidade.",
     "symbol": "Os",
     "xPos": 8,
     "yPos": 6,
     "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d6",
-    "ionization_energies": [840, 1600],
     "block": "d"
   },
   {
@@ -1466,12 +1300,11 @@
     "number": 77,
     "phase": "Sólido",
     "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_077_iridium/element_077_iridium.glb",
-    "summary": "O irídio é um elemento químico com símbolo Ir e número atômico 77. Um metal de transição branco prateado muito duro, quebradiço do grupo da platina, o irídio é geralmente considerado o segundo elemento mais denso (depois do ósmio) com base na densidade medida, embora os cálculos ",
+    "summary": "O irídio (símbolo Ir, número atômico 77) é empregado em eletrodos de velas de ignição e em ligas resistentes à corrosão e altas temperaturas.",
     "symbol": "Ir",
     "xPos": 9,
     "yPos": 6,
     "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d7",
-    "ionization_energies": [880, 1600],
     "block": "d"
   },
   {
@@ -1484,12 +1317,11 @@
     "number": 78,
     "phase": "Sólido",
     "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_078_platinum/element_078_platinum.glb",
-    "summary": "A platina é um elemento químico com símbolo Pt e número atômico 78. É um metal de transição denso, maleável, dúctil, altamente não reativo, precioso, branco-acinzentado. ",
+    "summary": "A platina (símbolo Pt, número atômico 78) é usada em catalisadores automotivos, joias e em dispositivos médicos.",
     "symbol": "Pt",
     "xPos": 10,
     "yPos": 6,
     "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s1 4f14 5d9",
-    "ionization_energies": [870, 1791],
     "block": "d"
   },
   {
@@ -1502,12 +1334,11 @@
     "number": 79,
     "phase": "Sólido",
     "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_079_gold/element_079_gold.glb",
-    "summary": "O ouro é um elemento químico com símbolo Au (do latim:aurum) e número atômico 79. Na sua forma mais pura, é um metal brilhante, amarelo levemente avermelhado, denso, macio, maleável e dúctil. ",
+    "summary": "O ouro (símbolo Au, número atômico 79) é amplamente usado em joalheria, eletrônica e como padrão monetário.",
     "symbol": "Au",
     "xPos": 11,
     "yPos": 6,
     "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s1 4f14 5d10",
-    "ionization_energies": [890.1, 1980],
     "block": "d"
   },
   {
@@ -1520,12 +1351,11 @@
     "number": 80,
     "phase": "Líquido",
     "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_080_mercury/element_080_mercury.glb",
-    "summary": "Mercúrio é um elemento químico com símbolo Hg e número atômico 80. É comumente conhecido como mercúrio e anteriormente era denominado hydrargyrum (/haɪˈdrɑːrdʒərəm/). ",
+    "summary": "O mercúrio (símbolo Hg, número atômico 80) é utilizado em termômetros, barômetros e em lâmpadas fluorescentes.",
     "symbol": "Hg",
     "xPos": 12,
     "yPos": 6,
     "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10",
-    "ionization_energies": [1007.1, 1810, 3300],
     "block": "d"
   },
   {
@@ -1538,12 +1368,11 @@
     "number": 81,
     "phase": "Sólido",
     "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_081_thallium/element_081_thallium.glb",
-    "summary": "O tálio é um elemento químico com símbolo Tl e número atômico 81. Este metal pós-transição cinza macio não é encontrado livre na natureza. ",
+    "summary": "O tálio (símbolo Tl, número atômico 81) é usado em sensores ópticos e em venenos para ratos, embora seu uso seja controlado devido à sua toxicidade.",
     "symbol": "Tl",
     "xPos": 13,
     "yPos": 6,
     "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p1",
-    "ionization_energies": [589.4, 1971, 2878],
     "block": "p"
   },
   {
@@ -1556,12 +1385,11 @@
     "number": 82,
     "phase": "Sólido",
     "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_082_lead/element_082_lead.glb",
-    "summary": "Chumbo (/euɛd/) é um elemento químico do grupo do carbono com símbolo Pb (do latim: plumbum) e número atômico 82. O chumbo é um metal pós-transição macio, maleável e pesado. ",
+    "summary": "O chumbo (símbolo Pb, número atômico 82) é utilizado em baterias de ácido-chumbo, blindagem contra radiação e em soldas.",
     "symbol": "Pb",
     "xPos": 14,
     "yPos": 6,
     "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p2",
-    "ionization_energies": [715.6, 1450.5, 3081.5, 4083, 6640],
     "block": "p"
   },
   {
@@ -1574,12 +1402,11 @@
     "number": 83,
     "phase": "Sólido",
     "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_083_bismuth/element_083_bismuth.glb",
-    "summary": "O bismuto é um elemento químico com símbolo Bi e número atômico 83. O bismuto, um metal pentavalente pós-transição, se assemelha quimicamente ao arsênico e ao antimônio. ",
+    "summary": "O bismuto (símbolo Bi, número atômico 83) é usado em cosméticos, ligas de baixa fusão e medicamentos como subsalicilato de bismuto.",
     "symbol": "Bi",
     "xPos": 15,
     "yPos": 6,
     "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p3",
-    "ionization_energies": [703, 1610, 2466, 4370, 5400, 8520],
     "block": "p"
   },
   {
@@ -1592,12 +1419,11 @@
     "number": 84,
     "phase": "Sólido",
     "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_084_polonium/element_084_polonium.glb",
-    "summary": "O polônio é um elemento químico de símbolo Po e número atômico 84, descoberto em 1898 por Marie Curie e Pierre Curie. ",
+    "summary": "O polônio (símbolo Po, número atômico 84) é usado em dispositivos de eliminação de estática e como fonte de calor em satélites.",
     "symbol": "Po",
     "xPos": 16,
     "yPos": 6,
     "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p4",
-    "ionization_energies": [812.1],
     "block": "p"
   },
   {
@@ -1610,12 +1436,11 @@
     "number": 85,
     "phase": "Sólido",
     "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_085_astatine/element_085_astatine.glb",
-    "summary": "Astatine é um elemento químico radioativo muito raro com o símbolo químico At e número atômico 85. Ocorre na Terra como o produto da decomposição de vários elementos mais pesados. ",
+    "summary": "O astato (símbolo At, número atômico 85) tem aplicações potenciais em medicina nuclear para tratamentos de câncer.",
     "symbol": "At",
     "xPos": 17,
     "yPos": 6,
     "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p5",
-    "ionization_energies": [899.003],
     "block": "p"
   },
   {
@@ -1628,12 +1453,11 @@
     "number": 86,
     "phase": "Gasoso",
     "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_086_radon/element_086_radon.glb",
-    "summary": "O Radon é um elemento químico com símbolo Rn e número atômico 86. É um gás nobre radioativo, incolor, inodoro e insípido, que ocorre naturalmente como um produto da decomposição do rádio. ",
+    "summary": "O radônio (símbolo Rn, número atômico 86) é usado em tratamentos de radioterapia, embora sua exposição seja perigosa.",
     "symbol": "Rn",
     "xPos": 18,
     "yPos": 6,
     "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6",
-    "ionization_energies": [1037],
     "block": "p"
   },
   {
@@ -1646,12 +1470,11 @@
     "number": 87,
     "phase": "Sólido",
     "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_087_francium/element_087_francium.glb",
-    "summary": "Francium é um elemento químico com símbolo Fr e número atômico 87. Costumava ser conhecido como eka-césio e actínio K. É o segundo elemento menos eletronegativo, atrás apenas do césio. ",
+    "summary": "O frâncio (símbolo Fr, número atômico 87) é extremamente raro e instável, com pouca aplicação prática, utilizado principalmente em pesquisas científicas.",
     "symbol": "Fr",
     "xPos": 1,
     "yPos": 7,
     "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s1",
-    "ionization_energies": [380],
     "block": "s"
   },
   {
@@ -1664,12 +1487,11 @@
     "number": 88,
     "phase": "Sólido",
     "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_088_radium/element_088_radium.glb",
-    "summary": "O rádio é um elemento químico com símbolo Ra e número atômico 88. É o sexto elemento do grupo 2 da tabela periódica, também conhecidos como metais alcalino-terrosos. ",
+    "summary": "O rádio (símbolo Ra, número atômico 88) foi usado no passado em tintas luminosas e em tratamentos médicos, mas seu uso foi reduzido devido à sua radioatividade.",
     "symbol": "Ra",
     "xPos": 2,
     "yPos": 7,
     "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2",
-    "ionization_energies": [509.3, 979],
     "block": "s"
   },
   {
@@ -1682,12 +1504,11 @@
     "number": 89,
     "phase": "Sólido",
     "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_089_actinium/element_089_actinium.glb",
-    "summary": "Actínio é um elemento químico radioativo com símbolo Ac (não confundir com a abreviatura de grupo acetil) e número atômico 89, que foi descoberto em 1899. Foi o primeiro elemento radioativo não primordial a ser isolado. ",
+    "summary": "O actínio (símbolo Ac, número atômico 89) é utilizado como fonte de nêutrons e em terapias de câncer experimental.",
     "symbol": "Ac",
     "xPos": 3,
     "yPos": 10,
     "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 6d1",
-    "ionization_energies": [499, 1170],
     "block": "f"
   },
   {
@@ -1700,12 +1521,11 @@
     "number": 90,
     "phase": "Sólido",
     "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_090_thorium/element_090_thorium.glb",
-    "summary": "O tório é um elemento químico com símbolo Th e número atômico 90. Um metal actinídeo radioativo, o tório é um dos dois únicos elementos significativamente radioativos que ainda ocorrem naturalmente em grandes quantidades como elemento primordial (o outro é o urânio). ",
+    "summary": "O tório (símbolo Th, número atômico 90) é usado em reatores nucleares e em ligas para aumentar a resistência ao calor.",
     "symbol": "Th",
     "xPos": 4,
     "yPos": 10,
     "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 6d2",
-    "ionization_energies": [587, 1110, 1930, 2780],
     "block": "f"
   },
   {
@@ -1718,12 +1538,11 @@
     "number": 91,
     "phase": "Sólido",
     "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_091_protactinium/element_091_protactinium.glb",
-    "summary": "Protactínio é um elemento químico com símbolo Pa e número atômico 91. É um metal denso, cinza prateado, que reage prontamente com oxigênio, vapor de água e ácidos inorgânicos. ",
+    "summary": "O protactínio (símbolo Pa, número atômico 91) é usado principalmente em pesquisa nuclear.",
     "symbol": "Pa",
     "xPos": 5,
     "yPos": 10,
     "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f2 6d1",
-    "ionization_energies": [568],
     "block": "f"
   },
   {
@@ -1736,12 +1555,11 @@
     "number": 92,
     "phase": "Sólido",
     "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_092_uranium/element_092_uranium.glb",
-    "summary": "O urânio é um elemento químico com símbolo U e número atômico 92. É um metal branco prateado da série actinídeo da tabela periódica. ",
+    "summary": "O urânio (símbolo U, número atômico 92) é amplamente utilizado como combustível em reatores nucleares e em armamento.",
     "symbol": "U",
     "xPos": 6,
     "yPos": 10,
     "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f3 6d1",
-    "ionization_energies": [597.6, 1420],
     "block": "f"
   },
   {
@@ -1754,12 +1572,11 @@
     "number": 93,
     "phase": "Sólido",
     "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_093_neptunium/element_093_neptunium.glb",
-    "summary": "Netúnio é um elemento químico com símbolo Np e número atômico 93. Um metal actinídeo radioativo, o neptúnio é o primeiro elemento transurânico. ",
+    "summary": "O neptúnio (símbolo Np, número atômico 93) é usado em detectores de nêutrons e como precursor para a produção de plutônio.",
     "symbol": "Np",
     "xPos": 7,
     "yPos": 10,
     "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f4 6d1",
-    "ionization_energies": [604.5],
     "block": "f"
   },
   {
@@ -1776,8 +1593,8 @@
     "xPos": 8,
     "yPos": 10,
     "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f6",
-    "ionization_energies": [584.7],
-    "block": "f"
+    "block": "f",
+    "summary": "O plutônio (símbolo Pu, número atômico 94) é usado em reatores nucleares e em armas nucleares."
   },
   {
     "name": "Amerício",
@@ -1789,12 +1606,11 @@
     "number": 95,
     "phase": "Sólido",
     "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_095_americium/element_095_americium.glb",
-    "summary": "O amerício é um elemento químico transurânico radioativo com símbolo Am e número atômico 95. Este membro da série dos actinídeos está localizado na tabela periódica sob o elemento lantanídeo európio e, portanto, por analogia, recebeu o nome das Américas. ",
+    "summary": "O amerício (símbolo Am, número atômico 95) é usado em detectores de fumaça e em medições de densidade e espessura.",
     "symbol": "Am",
     "xPos": 9,
     "yPos": 10,
     "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f7",
-    "ionization_energies": [578],
     "block": "f"
   },
   {
@@ -1807,12 +1623,11 @@
     "number": 96,
     "phase": "Sólido",
     "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_096_curium/element_096_curium.glb",
-    "summary": "O cúrio é um elemento químico radioativo transurânico com símbolo Cm e número atômico 96. Este elemento da série dos actinídeos recebeu o nome de Marie e Pierre Curie – ambos eram conhecidos por suas pesquisas sobre radioatividade. ",
+    "summary": "O cúrio (símbolo Cm, número atômico 96) é usado como fonte de nêutrons em pesquisas científicas e em geradores termoelétricos.",
     "symbol": "Cm",
     "xPos": 10,
     "yPos": 10,
     "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f7 6d1",
-    "ionization_energies": [581],
     "block": "f"
   },
   {
@@ -1825,12 +1640,11 @@
     "number": 97,
     "phase": "Sólido",
     "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_097_berkelium/element_097_berkelium.glb",
-    "summary": "O berquélio é um elemento químico radioativo transurânico com símbolo Bk e número atômico 97. É membro da série de elementos actinídeos e transurânicos. ",
+    "summary": "O berquélio (símbolo Bk, número atômico 97) tem aplicações limitadas, sendo usado principalmente em pesquisas científicas.",
     "symbol": "Bk",
     "xPos": 11,
     "yPos": 10,
     "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f9",
-    "ionization_energies": [601],
     "block": "f"
   },
   {
@@ -1843,12 +1657,11 @@
     "number": 98,
     "phase": "Sólido",
     "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_098_californium/element_098_californium.glb",
-    "summary": "Californium é um elemento químico metálico radioativo com símbolo Cf e número atômico 98. O elemento foi produzido pela primeira vez em 1950 no Laboratório de Radiação da Universidade da Califórnia em Berkeley, bombardeando cúrio com partículas alfa (íons hélio-4). ",
+    "summary": "O califórnio (símbolo Cf, número atômico 98) é utilizado em detectores de nêutrons e em pesquisas geológicas.",
     "symbol": "Cf",
     "xPos": 12,
     "yPos": 10,
     "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f10",
-    "ionization_energies": [608],
     "block": "f"
   },
   {
@@ -1861,12 +1674,11 @@
     "number": 99,
     "phase": "Sólido",
     "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_099_einsteinium/element_099_einsteinium.glb",
-    "summary": "Einstênio é um elemento sintético com símbolo Es e número atômico 99. É o sétimo elemento transurânico e um actinídeo. ",
+    "summary": "O einstênio (símbolo Es, número atômico 99) tem usos restritos a pesquisas científicas devido à sua radioatividade.",
     "symbol": "Es",
     "xPos": 13,
     "yPos": 10,
     "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f11",
-    "ionization_energies": [619],
     "block": "f"
   },
   {
@@ -1879,12 +1691,11 @@
     "number": 100,
     "phase": "Sólido",
     "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_100_fermium/element_100_fermium.glb",
-    "summary": "O férmio é um elemento sintético com símbolo Fm e número atômico 100. É membro da série dos actinídeos. ",
+    "summary": "O férmio (símbolo Fm, número atômico 100) é utilizado exclusivamente em pesquisa nuclear.",
     "symbol": "Fm",
     "xPos": 14,
     "yPos": 10,
     "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f12",
-    "ionization_energies": [627],
     "block": "f"
   },
   {
@@ -1897,12 +1708,11 @@
     "number": 101,
     "phase": "Sólido",
     "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_101_mendelevium/element_101_mendelevium.glb",
-    "summary": "Mendelévio é um elemento sintético com símbolo químico Md (anteriormente Mv) e número atômico 101. Elemento transurânico radioativo metálico da série dos actinídeos, é o primeiro elemento que atualmente não pode ser produzido em quantidades macroscópicas através do bombardeio de nêutrons de elementos mais leves. ",
+    "summary": "O mendelévio (símbolo Md, número atômico 101) é um elemento artificial com uso limitado a pesquisas científicas.",
     "symbol": "Md",
     "xPos": 15,
     "yPos": 10,
     "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f13",
-    "ionization_energies": [635],
     "block": "f"
   },
   {
@@ -1915,12 +1725,11 @@
     "number": 102,
     "phase": "Sólido",
     "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_102_nobelium/element_102_nobelium.glb",
-    "summary": "Nobélio é um elemento químico sintético com símbolo Não e número atômico 102. Seu nome é uma homenagem a Alfred Nobel, o inventor da dinamite e benfeitor da ciência. ",
+    "summary": "O nobélio (símbolo No, número atômico 102) é utilizado em pesquisas sobre a estrutura atômica.",
     "symbol": "No",
     "xPos": 16,
     "yPos": 10,
     "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f14",
-    "ionization_energies": [642],
     "block": "f"
   },
   {
@@ -1933,12 +1742,11 @@
     "number": 103,
     "phase": "Sólido",
     "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_103_lawrencium/element_103_lawrencium.glb",
-    "summary": "Lawrencium é um elemento químico sintético com símbolo químico Lr (anteriormente Lw) e número atômico 103. Seu nome é uma homenagem a Ernest Lawrence, inventor do ciclotron, um dispositivo que foi usado para descobrir muitos elementos radioativos artificiais. ",
+    "summary": "O laurêncio (símbolo Lr, número atômico 103) é utilizado principalmente para fins de pesquisa em química nuclear.",
     "symbol": "Lr",
     "xPos": 17,
     "yPos": 10,
     "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f14 7p1",
-    "ionization_energies": [470],
     "block": "d"
   },
   {
@@ -1951,12 +1759,11 @@
     "number": 104,
     "phase": "Sólido",
     "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_104_rutherfordium/element_104_rutherfordium.glb",
-    "summary": "Rutherfórdio é um elemento químico com símbolo Rf e número atômico 104, nomeado em homenagem ao físico Ernest Rutherford. ",
+    "summary": "O rutherfórdio (símbolo Rf, número atômico 104) é usado em pesquisas científicas sobre a estrutura dos átomos pesados.",
     "symbol": "Rf",
     "xPos": 4,
     "yPos": 7,
     "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f14 6d2",
-    "ionization_energies": [580],
     "block": "d"
   },
   {
@@ -1969,12 +1776,11 @@
     "number": 105,
     "phase": "Sólido",
     "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_105_dubnium/element_105_dubnium.glb",
-    "summary": "Dubnium é um elemento químico com símbolo Db e número atômico 105. Seu nome vem da cidade de Dubna, na Rússia (ao norte de Moscou), onde foi produzido pela primeira vez. ",
+    "summary": "O dúbnio (símbolo Db, número atômico 105) é utilizado em pesquisas científicas para estudar as propriedades dos elementos superpesados.",
     "symbol": "Db",
     "xPos": 5,
     "yPos": 7,
     "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f14 6d3",
-    "ionization_energies": [],
     "block": "d"
   },
   {
@@ -1987,12 +1793,11 @@
     "number": 106,
     "phase": "Sólido",
     "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_106_seaborgium/element_106_seaborgium.glb",
-    "summary": "Seaborgium é um elemento sintético com símbolo Sg e número atômico 106. Seu isótopo mais estável 271Sg tem meia-vida de 1,9 minutos. ",
+    "summary": "O seabórgio (símbolo Sg, número atômico 106) é um elemento sintético usado exclusivamente em pesquisa científica.",
     "symbol": "Sg",
     "xPos": 6,
     "yPos": 7,
     "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f14 6d4",
-    "ionization_energies": [],
     "block": "d"
   },
   {
@@ -2005,12 +1810,11 @@
     "number": 107,
     "phase": "Sólido",
     "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_107_bohrium/element_107_bohrium.glb",
-    "summary": "Bohrium é um elemento químico com símbolo Bh e número atômico 107. Seu nome é uma homenagem ao físico dinamarquês Niels Bohr. ",
+    "summary": "O bóhrio (símbolo Bh, número atômico 107) é um elemento sintético usado em pesquisas científicas.",
     "symbol": "Bh",
     "xPos": 7,
     "yPos": 7,
     "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f14 6d5",
-    "ionization_energies": [],
     "block": "d"
   },
   {
@@ -2023,12 +1827,11 @@
     "number": 108,
     "phase": "Sólido",
     "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_108_hassium/element_108_hassium.glb",
-    "summary": "Hássio é um elemento químico com símbolo Hs e número atômico 108, em homenagem ao estado alemão de Hesse. ",
+    "summary": "O hássio (símbolo Hs, número atômico 108) é um elemento sintético utilizado em estudos sobre elementos superpesados.",
     "symbol": "Hs",
     "xPos": 8,
     "yPos": 7,
     "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f14 6d6",
-    "ionization_energies": [],
     "block": "d"
   },
   {
@@ -2041,12 +1844,11 @@
     "number": 109,
     "phase": "Sólido",
     "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_109_meitnerium/element_109_meitnerium.glb",
-    "summary": "Meitnério é um elemento químico com símbolo Mt e número atômico 109. É um elemento sintético extremamente radioativo (um elemento não encontrado na natureza que pode ser criado em laboratório). ",
+    "summary": "O meitnério (símbolo Mt, número atômico 109) é um elemento sintético com aplicações limitadas a pesquisa científica.",
     "symbol": "Mt",
     "xPos": 9,
     "yPos": 7,
     "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f14 6d7",
-    "ionization_energies": [],
     "block": "d"
   },
   {
@@ -2059,12 +1861,11 @@
     "number": 110,
     "phase": "Sólido",
     "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_110_darmstadtium/element_110_darmstadtium.glb",
-    "summary": "Darmstadtium é um elemento químico com símbolo Ds e número atômico 110. É um elemento sintético extremamente radioativo. ",
+    "summary": "O darmstádio (símbolo Ds, número atômico 110) é um elemento sintético usado em pesquisas de química e física nuclear.",
     "symbol": "Ds",
     "xPos": 10,
     "yPos": 7,
     "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f14 6d8",
-    "ionization_energies": [],
     "block": "d"
   },
   {
@@ -2077,16 +1878,15 @@
     "number": 111,
     "phase": "Sólido",
     "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_111_roentgenium/element_111_roentgenium.glb",
-    "summary": "Roentgenium é um elemento químico com símbolo Rg e número atômico 111. É um elemento sintético extremamente radioativo (elemento que pode ser criado em laboratório, mas não é encontrado na natureza); ",
+    "summary": "O roentgênio (símbolo Rg, número atômico 111) é um elemento sintético utilizado em estudos de átomos superpesados.",
     "symbol": "Rg",
     "xPos": 11,
     "yPos": 7,
     "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f14 6d9",
-    "ionization_energies": [],
     "block": "d"
   },
   {
-    "name": "Copérnio",
+    "name": "Copernício",
     "atomic_mass": 285,
     "boil": 3570,
     "category": "desconhecido",
@@ -2095,16 +1895,15 @@
     "number": 112,
     "phase": "Líquido",
     "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_112_copernicium/element_112_copernicium.glb",
-    "summary": "Copernicium é um elemento químico com símbolo Cn e número atômico 112. É um elemento sintético extremamente radioativo que só pode ser criado em laboratório. ",
+    "summary": "O copernício (símbolo Cn, número atômico 112) é um elemento sintético com uso limitado a pesquisas sobre elementos superpesados.",
     "symbol": "Cn",
     "xPos": 12,
     "yPos": 7,
     "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f14 6d10",
-    "ionization_energies": [],
     "block": "d"
   },
   {
-    "name": "Nipónio",
+    "name": "Nihônio",
     "atomic_mass": 286,
     "boil": 1430,
     "category": "desconhecido",
@@ -2113,12 +1912,11 @@
     "number": 113,
     "phase": "Sólido",
     "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_113_nihonium/element_113_nihonium.glb",
-    "summary": "Nihônio é um elemento químico com número atômico 113. Possui símbolo Nh. ",
+    "summary": "O nihônio (símbolo Nh, número atômico 113) é um elemento sintético com aplicações restritas a pesquisa científica.",
     "symbol": "Nh",
     "xPos": 13,
     "yPos": 7,
     "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f14 6d10 7p1",
-    "ionization_energies": [],
     "block": "p"
   },
   {
@@ -2131,12 +1929,11 @@
     "number": 114,
     "phase": "Sólido",
     "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_114_flerovium/element_114_flerovium.glb",
-    "summary": "Fleróvio é um elemento químico artificial superpesado com símbolo Fl e número atômico 114. É um elemento sintético extremamente radioativo. ",
+    "summary": "O fleróvio (símbolo Fl, número atômico 114) é um elemento sintético estudado em pesquisas sobre a estabilidade dos elementos superpesados.",
     "symbol": "Fl",
     "xPos": 14,
     "yPos": 7,
     "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f14 6d10 7p2",
-    "ionization_energies": [],
     "block": "p"
   },
   {
@@ -2149,12 +1946,11 @@
     "number": 115,
     "phase": "Sólido",
     "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_115_moscovium/element_115_moscovium.glb",
-    "summary": "Moscovium é o nome de um elemento sintético superpesado da tabela periódica que possui o símbolo Mc e possui o número atômico 115. É um elemento extremamente radioativo; ",
+    "summary": "O moscóvio (símbolo Mc, número atômico 115) é um elemento sintético com uso restrito a pesquisa científica.",
     "symbol": "Mc",
     "xPos": 15,
     "yPos": 7,
     "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f14 6d10 7p3",
-    "ionization_energies": [],
     "block": "p"
   },
   {
@@ -2167,12 +1963,11 @@
     "number": 116,
     "phase": "Sólido",
     "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_116_livermorium/element_116_livermorium.glb",
-    "summary": "Livermorium é um elemento sintético superpesado com símbolo Lv e número atômico 116. É um elemento extremamente radioativo que só foi criado em laboratório e não foi observado na natureza. ",
+    "summary": "O livermório (símbolo Lv, número atômico 116) é um elemento sintético utilizado em pesquisas sobre a estrutura nuclear.",
     "symbol": "Lv",
     "xPos": 16,
     "yPos": 7,
     "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f14 6d10 7p4",
-    "ionization_energies": [],
     "block": "p"
   },
   {
@@ -2185,12 +1980,11 @@
     "number": 117,
     "phase": "Sólido",
     "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_117_tennessine/element_117_tennessine.glb",
-    "summary": "Tenesso é um elemento químico artificial superpesado com número atômico 117 e símbolo Ts. ",
+    "summary": "O tenessino (símbolo Ts, número atômico 117) é um elemento sintético com aplicações limitadas a pesquisa científica.",
     "symbol": "Ts",
     "xPos": 17,
     "yPos": 7,
     "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f14 6d10 7p5",
-    "ionization_energies": [],
     "block": "p"
   },
   {
@@ -2203,12 +1997,11 @@
     "number": 118,
     "phase": "Sólido",
     "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_118_oganesson/element_118_oganesson.glb",
-    "summary": "Oganessônio é o nome da IUPAC para o elemento transactinídeo com número atômico 118 e símbolo de elemento Og. ",
+    "summary": "O oganessônio (símbolo Og, número atômico 118) é o elemento mais pesado conhecido, usado apenas em pesquisas científicas sobre a tabela periódica.",
     "symbol": "Og",
     "xPos": 18,
     "yPos": 7,
     "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s2 4d10 5p6 6s2 4f14 5d10 6p6 7s2 5f14 6d10 7p6",
-    "ionization_energies": [],
     "block": "p"
   }
 ]
