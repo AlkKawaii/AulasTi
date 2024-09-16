@@ -11,6 +11,7 @@ export default function Footer() {
           alt='React Logo'
         />
       </div>
+      <h5>Código fonte no <a href="https://github.com/AlkKawaii/AulasTi/tree/main/tabelaPeriodica/tabelinha" target="_blank" rel="noopener noreferrer">GitHub</a></h5>
     </footer>
   );
 }

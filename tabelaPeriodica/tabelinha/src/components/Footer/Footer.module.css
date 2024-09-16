@@ -3,6 +3,9 @@
   padding: 0.5em;
   background-color: rgb(90, 140, 180);
   text-align: center;
+  & h5 a {
+    color: aquamarine;
+  }
 }
 
 .div {
@@ -12,4 +15,4 @@
   & img {
     width: 5%;
   }
-}
+}  
