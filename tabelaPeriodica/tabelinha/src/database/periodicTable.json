@@ -690,6 +690,7 @@
     "phase": "Sólido",
     "bohr_model_3d": "https://storage.googleapis.com/search-ar-edu/periodic-table/element_041_niobium/element_041_niobium.glb",
     "summary": "Nióbio, é um elemento químico com símbolo Nb e número atômico 41. Um metal de transição usado principalmente em ligas de aço para melhorar a resistência e a resistência à corrosão, especialmente em tubulações de gás e petróleo.",
+    "symbol": "Nb",
     "xPos": 5,
     "yPos": 5,
     "electron_configuration": "1s2 2s2 2p6 3s2 3p6 4s2 3d10 4p6 5s1 4d4",
