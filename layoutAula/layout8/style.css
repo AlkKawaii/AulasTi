@@ -1,0 +1,57 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  padding: 0.5em;
+  gap: 0.5em;
+  font-family: 'Comic Sans MS';
+  & * {
+    background-color: rgba(50, 50, 50, 0.2);
+  }
+}
+
+aside {
+  flex: 1;
+  & nav {
+    display: flex;
+    flex-direction: column;
+    padding: 0.5em;
+    gap: 0.5em;
+    height: 100%;
+  }
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  flex: 6;
+  gap: 0.5em;
+}
+
+main {
+  display: flex;
+  gap: 0.5em;
+  height: 100%;
+}
+
+p:has(+ .advertisement) {
+  flex: 3;
+}
+
+header {
+  text-align: center;
+  height: 7vh;
+  line-height: 7vh;
+}
+
+.advertisement {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  gap: 0.5em;
+}
