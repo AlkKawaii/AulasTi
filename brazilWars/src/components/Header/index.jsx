@@ -1,4 +1,5 @@
 import { useEffect, useRef } from 'react';
+import { Link } from 'react-router-dom';
 import styles from './Header.module.css';
 
 export default function Header({}) {
@@ -25,5 +26,11 @@ export default function Header({}) {
     };
   }, []);
 
-  return <header className={styles.header} ref={headerRef}></header>;
+  return (
+    <header className={styles.header} ref={headerRef}>
+      <Link to='/'>
+        <span>Brazil Wars</span>
+      </Link>
+    </header>
+  );
 }

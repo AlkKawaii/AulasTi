@@ -10,6 +10,8 @@
   width: 95vw;
   margin: 0 auto;
   border-radius: 1em;
+  align-items: center;
+  justify-content: space-around;
   background: var(--glass-color);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
