@@ -1,0 +1,29 @@
+import { useEffect, useRef } from 'react';
+import styles from './Header.module.css';
+
+export default function Header({}) {
+  const oldScrollRef = useRef(window.scrollY);
+  const headerRef = useRef(null);
+  useEffect(() => {
+    if (headerRef.current) {
+      headerRef.current.classList.add(styles.show);
+    }
+
+    const handleScroll = () => {
+      let currentScroll = window.scrollY;
+      if (currentScroll > oldScrollRef.current) {
+        headerRef.current.classList.remove(styles.show);
+      } else {
+        headerRef.current.classList.add(styles.show);
+      }
+      oldScrollRef.current = window.scrollY;
+    };
+    document.addEventListener('scroll', handleScroll);
+
+    return () => {
+      document.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
+  return <header className={styles.header} ref={headerRef}></header>;
+}

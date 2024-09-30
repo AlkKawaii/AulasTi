@@ -1,0 +1,9 @@
+:root {
+    --background-color: rgb(35, 35, 40);
+    --glass-color: rgba(255, 255, 255, 0.2);
+    --highlight-color: rgb(245, 166, 35);
+    --primary-color: rgb(74, 145, 227);
+    --secondary-color: rgb(98, 98, 116);
+    --font-color: rgb(250, 220, 220);
+    --padding: 1em;
+}

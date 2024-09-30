@@ -1,0 +1,22 @@
+@import url(../../styles/variables.module.css);
+
+.header {
+  display: flex;
+  position: fixed;
+  top: -10em;
+  right: 0;
+  left: 0;
+  height: 4em;
+  width: 95vw;
+  margin: 0 auto;
+  border-radius: 1em;
+  background: var(--glass-color);
+  backdrop-filter: blur(8px);
+  -webkit-backdrop-filter: blur(8px);
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  transition: top 0.5s;
+}
+
+.header.show {
+  top: 0.5em;
+}
