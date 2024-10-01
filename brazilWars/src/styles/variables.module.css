@@ -1,9 +1,9 @@
 :root {
-    --background-color: rgb(35, 35, 40);
+    --background-color: rgb(75, 75, 80);
     --glass-color: rgba(255, 255, 255, 0.2);
-    --highlight-color: rgb(245, 166, 35);
-    --primary-color: rgb(74, 145, 227);
-    --secondary-color: rgb(98, 98, 116);
+    --highlight-color: rgb(245, 170, 35);
+    --primary-color: rgb(70, 145, 230);
+    --secondary-color: rgb(100, 100, 120);
     --font-color: rgb(250, 220, 220);
     --padding: 1em;
 }

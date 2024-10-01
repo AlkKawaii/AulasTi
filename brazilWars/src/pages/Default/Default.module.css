@@ -1,0 +1,8 @@
+@import url(../../styles/variables.module.css);
+
+.container {
+  height: min-content;
+  margin-top: 64px;
+  padding: var(--padding);
+  text-align: justify;
+}

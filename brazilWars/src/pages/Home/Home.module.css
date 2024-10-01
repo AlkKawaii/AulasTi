@@ -1,6 +1,0 @@
-@import url(../../styles/variables.module.css);
-
-.temp {
-  height: 200vh;
-  background: var(--background-color);
-}

@@ -28,8 +28,11 @@ export default function Header({}) {
 
   return (
     <header className={styles.header} ref={headerRef}>
-      <Link to='/'>
+      <Link className={styles.link} to='/'>
         <span>Brazil Wars</span>
+      </Link>
+      <Link className={styles.link} to='wars'>
+        <span>Lista de Guerras</span>
       </Link>
     </header>
   );

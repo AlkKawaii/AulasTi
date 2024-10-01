@@ -1,9 +1,19 @@
+@import url(index.css);
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 body {
+  height: 100vh;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
     'Lucida Sans', Arial, sans-serif;
+  background: linear-gradient(
+    to bottom,
+    var(--background-color),
+    var(--secondary-color)
+  );
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }

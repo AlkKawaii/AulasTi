@@ -6,12 +6,13 @@
   top: -10em;
   right: 0;
   left: 0;
-  height: 4em;
+  height: 64px;
   width: 95vw;
   margin: 0 auto;
   border-radius: 1em;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-between;
+  padding: 0 calc(var(--padding) * 3);
   background: var(--glass-color);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
@@ -21,4 +22,29 @@
 
 .header.show {
   top: 0.5em;
+}
+
+.link {
+  position: relative;
+  font-size: 1.5em;
+  color: var(--font-color);
+  opacity: 0.75;
+  text-decoration: none;
+
+  &::first-letter {
+    font-size: 1.2em;
+  }
+
+  &::before {
+    content: '';
+    height: 2px;
+    width: 0;
+    position: absolute;
+    bottom: 1px;
+    background-color: var(--font-color);
+    transition: width 0.2s;
+  }
+  &:hover::before {
+    width: 100%;
+  }
 }
