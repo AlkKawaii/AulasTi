@@ -1,8 +1,7 @@
 @import url(../../styles/variables.module.css);
 
 .container {
-  height: min-content;
-  margin-top: 64px;
-  padding: var(--padding);
+  margin-top: 80px;
+  padding: .75em 1.5em;
   text-align: justify;
 }

@@ -1,0 +1,13 @@
+.title {
+    text-align: center;
+    text-transform: capitalize;
+}
+
+.paragraph {
+  font-size: 1.1em;
+  margin-top: .75em;
+  &::first-letter {
+    font-size: 1.15em;
+    margin-left: 2em;
+  }
+}

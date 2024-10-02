@@ -12,7 +12,7 @@
   border-radius: 1em;
   align-items: center;
   justify-content: space-between;
-  padding: 0 calc(var(--padding) * 3);
+  padding-inline: 2em;
   background: var(--glass-color);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
