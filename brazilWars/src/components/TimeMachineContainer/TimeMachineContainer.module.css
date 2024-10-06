@@ -1,0 +1,34 @@
+.cardsContainer {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20%, 1fr));
+  gap: 3.5em;
+  grid-auto-flow: dense;
+  justify-content: center;
+}
+
+*:has(~ .focused),
+.focused ~ * {
+  opacity: 0.75;
+  transform: scale(0.95);
+}
+
+.focused div {
+  animation: rainbow 1.75s 0.1s forwards;
+}
+@keyframes rainbow {
+  from,
+  to {
+    border: red solid 0px;
+  }
+
+  25% {
+    border: yellow solid 8px;
+  }
+  50% {
+    border: blue solid 8px;
+  }
+
+  75% {
+    border: green solid 8px;
+  }
+}

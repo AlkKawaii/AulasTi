@@ -1,11 +1,11 @@
-import FlipCard from '../../components/FlipCard';
+import TimeMachineContainer from '../../components/TimeMachineContainer';
 import styles from './WarsPage.module.css';
 
 export default function WarsPage({}) {
   return (
     <>
-      <h1>Guerras Guerreadas</h1>
-      <FlipCard />
+      <h1 className={styles.title}>Guerras Guerreadas</h1>
+      <TimeMachineContainer />
     </>
   );
 }

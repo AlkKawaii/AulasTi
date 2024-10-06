@@ -1,12 +1,15 @@
 import styles from './FlipCard.module.css';
+import { forwardRef } from 'react';
 
-export default function FlipCard({ info }) {
+const FlipCard = forwardRef(({ info }, ref) => {
   return (
-    <div className={styles.flipCard}>
+    <div className={styles.flipCard} ref={ref}>
       <section className={styles.flipCardInner}>
-        <div className={styles.flipCardFront}>A</div>
-        <article className={styles.flipCardBack}>B</article>
+        <div className={styles.flipCardFront}>{info.title}</div>
+        <article className={styles.flipCardBack}>{info.year}</article>
       </section>
     </div>
   );
-}
+});
+
+export default FlipCard;

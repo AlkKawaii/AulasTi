@@ -1,11 +1,15 @@
 @import url(../../styles/variables.module.css);
 
 .flipCard {
-  width: 17%;
   aspect-ratio: 11/16;
   perspective: 9000px;
-  &:hover .flipCardInner {
-    transform: rotateY(180deg);
+  transition: all 1s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+
+  &:hover {
+    transform: scale(1.025);
+    & .flipCardInner {
+      transform: rotateY(180deg);
+    }
   }
 }
 
@@ -32,8 +36,8 @@
   text-align: justify;
   backface-visibility: hidden;
   background-color: var(--glass-color);
-  backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
   box-shadow: 2px 8px 8px rgba(0, 0, 0, 0.25);
   background-size: 200%;
 }
@@ -41,3 +45,10 @@
 .flipCardBack {
   transform: rotateY(180deg);
 }
+
+*:has(~ :is(.flipCard:hover, .focused)),
+:is(.flipCard:hover, .focused) ~ * {
+  opacity: 0.75;
+  transform: scale(0.95);
+}
+
