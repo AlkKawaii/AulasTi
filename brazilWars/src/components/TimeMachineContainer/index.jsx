@@ -3,6 +3,7 @@ import FlipCard from '../../components/FlipCard';
 import Timeline from '../../components/Timeline';
 import db from '../../assets/db/wars.json';
 import { useRef } from 'react';
+import Accordion from '../Accordion';
 
 export default function TimeMachineContainer({}) {
   const cardRefs = useRef([]);
@@ -31,6 +32,7 @@ export default function TimeMachineContainer({}) {
           );
         })}
       </div>
+      <Accordion />
     </section>
   );
 }

@@ -2,51 +2,143 @@
   {
     "title": "Guerra dos Palmares",
     "year": "1605-1694",
-    "image": "https://www.historia.uff.br/impressoesrebeldes/2022/wp-content/uploads/2022/04/guerra-de-palmares.jpg"
+    "image": "https://www.historia.uff.br/impressoesrebeldes/2022/wp-content/uploads/2022/04/guerra-de-palmares.jpg",
+    "mainBattles": [
+      "Ataque ao Mocambo do Amaro",
+      "Destruição de Palmares em 1694"
+    ],
+    "description": "A Guerra dos Palmares (1600-1694) foi um conflito entre os colonizadores portugueses e os quilombolas do Quilombo dos Palmares, um dos maiores e mais organizados núcleos de resistência escrava no Brasil. Liderados por figuras como Zumbi dos Palmares, os habitantes do quilombo lutaram contra a opressão, buscando a liberdade e a autonomia. A guerra foi marcada por diversas batalhas, culminando na destruição do quilombo e na morte de Zumbi.",
+    "curiosities": [
+      "Zumbi dos Palmares morreu no mesmo mês que Gregório de Matos",
+      "O dia da consciência negra é no dia da morte de Zumbi"
+    ]
   },
   {
     "title": "Guerra dos Emboabas",
     "year": "1707-1709",
-    "image": "https://g3i5r4x7.rocketcdn.me/wp-content/uploads/2020/07/guerra-dos-emboabas-historia-principais-causas-e-consequencias-1.jpg.webp"
+    "image": "https://g3i5r4x7.rocketcdn.me/wp-content/uploads/2020/07/guerra-dos-emboabas-historia-principais-causas-e-consequencias-1.jpg.webp",
+    "mainBattles": ["Capão da Traição"],
+    "description": "A Guerra dos Emboabas (1708-1709) foi um conflito entre os paulistas, que buscavam explorar as minas de ouro em Minas Gerais, e os emboabas, imigrantes de outras regiões que também queriam participar da exploração. A disputa resultou em várias batalhas e culminou na derrota dos paulistas, estabelecendo a hegemonia dos emboabas na região mineradora e o controle da Coroa sobre a exploração do ouro.",
+    "curiosities": [
+      "Emboaba é um termo pejorativo que significa pessoa de fora"
+    ]
   },
   {
     "title": "Guerra dos Mascates",
     "year": "1710-1711",
-    "image": "https://s1.static.brasilescola.uol.com.br/be/conteudo/images/042d854db7ac30857ff26aed9feb53af.jpg"
+    "image": "https://s1.static.brasilescola.uol.com.br/be/conteudo/images/042d854db7ac30857ff26aed9feb53af.jpg",
+    "mainBattles": ["Invasão a Recife", "Invasão a Olinda"],
+    "description": "A Guerra dos Mascates (1710-1711) foi uma disputa entre os moradores de Olinda, que eram proprietários de terras, e os comerciantes de Recife, conhecidos como mascates. A guerra teve raízes na rivalidade entre as duas cidades em Pernambuco e culminou em um conflito armado que resultou na vitória dos mascates, que conseguiram consolidar o poder comercial em Recife.",
+    "curiosities": [
+      "Mascate é um termo pejorativo usado pelos senhores de engenho para se referir aos comerciantes portugueses",
+      "Foi marcada por diversas intrigas e revoltas ao invés de batalhas, apesar de ser chamada de guerra."
+    ]
   },
   {
     "title": "Inconfidência Mineira",
     "year": "1789",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Bandeira_da_Inconfid%C3%AAncia_1789_Os_Inconfidentes.jpg/488px-Bandeira_da_Inconfid%C3%AAncia_1789_Os_Inconfidentes.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Bandeira_da_Inconfid%C3%AAncia_1789_Os_Inconfidentes.jpg/488px-Bandeira_da_Inconfid%C3%AAncia_1789_Os_Inconfidentes.jpg",
+    "mainBattles": ["Não houveram batalhas"],
+    "description": "A Inconfidência Mineira (1789) foi um movimento de caráter separatista e republicano em Minas Gerais, liderado por intelectuais e membros da elite local, como Tiradentes. Influenciados pelas ideias iluministas e pela independência dos Estados Unidos, os inconfidentes almejavam a criação de uma república independente. O movimento foi descoberto antes de ser colocado em prática, levando à prisão e execução de Tiradentes.",
+
+    "curiosities": [
+      "Não ocorreu nenhuma batalha, pois a revolta foi suprimida antes mesmo de acontecer",
+      "Tiradentes foi o único executado",
+      "A frase na bandeira mineira significa \"Liberdade ainda que tardia\""
+    ]
   },
   {
     "title": "Guerra da Cisplatina",
     "year": "1825-1828",
-    "image": "https://s1.static.brasilescola.uol.com.br/be/conteudo/images/pintura-juan-manuel-blanes-retratando-os-33-5bd99a3490860.jpg"
+    "image": "https://s1.static.brasilescola.uol.com.br/be/conteudo/images/pintura-juan-manuel-blanes-retratando-os-33-5bd99a3490860.jpg",
+    "mainBattles": [
+      "Batalha de Sarandi",
+      "Batalha do Passo do Rosário",
+      "Batalha do Juncal"
+    ],
+    "description": "A Guerra da Cisplatina (1825-1828) foi um conflito entre o Império do Brasil e as Províncias Unidas do Rio da Prata, resultante da luta pela independência da Cisplatina (atual Uruguai). A guerra foi marcada por combates intensos, mas terminou com a assinatura do Tratado de Montevidéu, reconhecendo a independência do Uruguai e encerrando a tentativa de anexação pela coroa brasileira.",
+    "curiosities": [
+      "A região foi chamada de Cisplatina pois ficava do lado brasileiro do Rio da Prata",
+      "A guerra foi um dos motivos de D. Pedro I abdicar posteriormente"
+    ]
   },
   {
     "title": "Revolução Farroupilha",
     "year": "1835-1845",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/MuseuJulio11.jpg/450px-MuseuJulio11.jpg"
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/MuseuJulio11.jpg/450px-MuseuJulio11.jpg",
+    "mainBattles": [
+      "Batalha do Seival",
+      "Batalha do Barro Vermelho",
+      "Tomada de Laguna",
+      "Queda de Laguna"
+    ],
+    "description": "A Revolução Farroupilha (1835-1845), também conhecida como Guerra dos Farrapos, foi um movimento separatista que ocorreu no Rio Grande do Sul. Os revolucionários, liderados por figuras como Bento Gonçalves, lutavam contra as injustiças sociais e econômicas impostas pelo governo imperial. A revolução resultou na criação de uma república temporária, mas acabou sendo derrotada e incorporada de volta ao Império.",
+    "curiosities": [
+      "A revolução farroupilha ou guerra dos farrapos tem esse nome por causa das roupas dos rebeldes",
+      "Duas repúblicas declararam independência durante a guerra, mas acabaram logo depois"
+    ]
   },
   {
     "title": "Guerra do Paraguai",
     "year": "1864-1870",
-    "image": "https://imagenes.elpais.com/resizer/v2/BXR5WUBLFNBVFCPPEHKJNREI3U.jpeg?auth=9ab2f140c4ed1f7702f6d2a963eb8e8871f1232db80de8cda37c4e262a920e0c&width=1200"
+    "image": "https://imagenes.elpais.com/resizer/v2/BXR5WUBLFNBVFCPPEHKJNREI3U.jpeg?auth=9ab2f140c4ed1f7702f6d2a963eb8e8871f1232db80de8cda37c4e262a920e0c&width=1200",
+    "mainBattles": [
+      "Batalha de Humaitá",
+      "Batalha de Itororó",
+      "Batalha de Avaí",
+      "Batalha de Angostura",
+      "Batalha das Lomas Valentinas",
+      "Campanha das Cordilheiras",
+      "Batalha de Cerro Corá"
+    ],
+    "description": "A Guerra do Paraguai (1864-1870) foi um dos maiores conflitos da América do Sul, envolvendo o Paraguai e a aliança formada pelo Brasil, Argentina e Uruguai. Motivada por disputas territoriais e políticas, a guerra resultou em enormes perdas humanas e materiais, com a quase destruição do Paraguai e a ascensão do Brasil como potência regional.",
+    "curiosities": [
+      "Foi uma das guerras mais sangrentas da América do sul, estimam-se mais de 300 mil mortes",
+      "É estimado que cerca de 60% da população paraguaia teria morrido na guerra",
+      "O conflito resultou numa dívida enorme para o Brasil"
+    ]
   },
   {
     "title": "Revolta da Armada",
-    "year": "1893-1894",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Die_Gartenlaube_%281894%29_b_052.jpg/1920px-Die_Gartenlaube_%281894%29_b_052.jpg"
+    "year": "1891-1894",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Die_Gartenlaube_%281894%29_b_052.jpg/1920px-Die_Gartenlaube_%281894%29_b_052.jpg",
+    "mainBattles": ["Primeira Revolta da Armada", "Segunda Revolta da Armada"],
+    "description": "A primeira revolta da armada ocorreu em decorrência do fechamento do congresso pelo presidente Deodoro da Fonseca, a segunda decorreu de Floriano Peixoto assumir a presidência ilegalmente quando deveria ter uma eleição.",
+    "curiosities": [
+      "Florianópolis recebeu o nome em homenagem a Floriano Peixoto, o presidente vigente na época da revolta",
+      "A revolta só pôde ser suprimida com apoio internacional"
+    ]
   },
   {
     "title": "Revolução Constitucionalista",
     "year": "1932",
-    "image": "https://guiadoestudante.abril.com.br/wp-content/uploads/sites/4/2021/07/quadro-revolu%C3%A7%C3%A3o-constitucionalista-de-1932.jpg?quality=70&strip=info&w=1280&h=720&crop=1"
+    "image": "https://guiadoestudante.abril.com.br/wp-content/uploads/sites/4/2021/07/quadro-revolu%C3%A7%C3%A3o-constitucionalista-de-1932.jpg?quality=70&strip=info&w=1280&h=720&crop=1",
+    "mainBattles": [
+      "Frente no Vale do Paraíba",
+      "Frente Sul Paulista",
+      "Frente Leste Paulista"
+    ],
+    "description": "A Revolução Constitucionalista de 1932 foi um movimento armado em São Paulo, que buscava a convocação de uma assembleia constituinte e a elaboração de uma nova constituição para o Brasil. Motivada pela insatisfação com o governo provisório de Getúlio Vargas, a revolta contou com amplo apoio popular, mas foi reprimida pelas forças federais.",
+    "curiosities": [
+      "Um dos principais símbolos da revolução foi o MMDC, o nome do movimento é as iniciais dos nomes de jovens assassinados",
+      "Apesar de diversos estados terem se solidarizado, somente um realmente se aliou a São Paulo"
+    ]
   },
   {
     "title": "Segunda Guerra Mundial",
-    "year": "1944-1945",
-    "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhF7IV__PGIlck-8u9WLrmcn-q_l2ZxJrXRgAmwIwteKd04b_z_RbzrOO38nDPX8_7z3-z3PAG3mbj6Z9hl53tMbUonKJDVqSsjrQnIVdmX3DCzvrJbDyUc54vxPI4c0QF7IXkLU4R4NHg/s1600/General_German_Brazil.png"
+    "year": "1939-1945",
+    "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhF7IV__PGIlck-8u9WLrmcn-q_l2ZxJrXRgAmwIwteKd04b_z_RbzrOO38nDPX8_7z3-z3PAG3mbj6Z9hl53tMbUonKJDVqSsjrQnIVdmX3DCzvrJbDyUc54vxPI4c0QF7IXkLU4R4NHg/s1600/General_German_Brazil.png",
+    "mainBattles": [
+      "Batalha de Collecchio-Fornovo",
+      "Batalha de Camaiore",
+      "Batalha do Monte Prano",
+      "Batalha do Vale do Serchio",
+      "Batalha das Toninhas"
+    ],
+    "description": "A participação do Brasil na Segunda Guerra Mundial (1942-1945) se deu após a declaração de guerra contra as potências do Eixo, em resposta a ataques a navios mercantes brasileiros. O Brasil enviou a Força Expedicionária Brasileira (FEB) para lutar na Itália, onde participou de batalhas importantes, como a de Monte Castelo. ",
+    "curiosities": [
+      "A FEB era conhecida como \"Cobras Fumantes\" e seu emblema era uma cobra fumando",
+      "O Brasil foi o único país sul-americano a enviar tropas na 2° guerra mundial"
+    ]
   }
 ]

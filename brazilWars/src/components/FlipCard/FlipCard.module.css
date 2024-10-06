@@ -44,22 +44,34 @@
     width: 100%;
     height: 100%;
     object-fit: cover;
-    padding: .5em;
+    padding: 0.5em;
     border-radius: 1em;
   }
 }
 
 .flipCardBack {
   display: flex;
-  flex-direction: column;
   padding: 1em;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 1em;
   text-align: justify;
   transform: rotateY(180deg);
+  & * {
+    overflow-y: auto;
+  }
 }
 
 *:has(~ :is(.flipCard:hover, .focused)),
 :is(.flipCard:hover, .focused) ~ * {
   opacity: 0.75;
   transform: scale(0.95);
+}
+
+.subItem {
+  margin-left: 1em;
+}
+
+.title {
+  text-align: center;
 }
