@@ -1,42 +1,52 @@
 [
   {
     "title": "Guerra dos Palmares",
-    "year": "1600-1694"
+    "year": "1605-1694",
+    "image": "https://www.historia.uff.br/impressoesrebeldes/2022/wp-content/uploads/2022/04/guerra-de-palmares.jpg"
   },
   {
     "title": "Guerra dos Emboabas",
-    "year": "1707-1709"
+    "year": "1707-1709",
+    "image": "https://g3i5r4x7.rocketcdn.me/wp-content/uploads/2020/07/guerra-dos-emboabas-historia-principais-causas-e-consequencias-1.jpg.webp"
   },
   {
     "title": "Guerra dos Mascates",
-    "year": "1710-1711"
+    "year": "1710-1711",
+    "image": "https://s1.static.brasilescola.uol.com.br/be/conteudo/images/042d854db7ac30857ff26aed9feb53af.jpg"
   },
   {
     "title": "Inconfidência Mineira",
-    "year": "1789"
+    "year": "1789",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/ee/Bandeira_da_Inconfid%C3%AAncia_1789_Os_Inconfidentes.jpg/488px-Bandeira_da_Inconfid%C3%AAncia_1789_Os_Inconfidentes.jpg"
   },
   {
     "title": "Guerra da Cisplatina",
-    "year": "1825-1828"
+    "year": "1825-1828",
+    "image": "https://s1.static.brasilescola.uol.com.br/be/conteudo/images/pintura-juan-manuel-blanes-retratando-os-33-5bd99a3490860.jpg"
   },
   {
     "title": "Revolução Farroupilha",
-    "year": "1835-1845"
+    "year": "1835-1845",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e9/MuseuJulio11.jpg/450px-MuseuJulio11.jpg"
   },
   {
     "title": "Guerra do Paraguai",
-    "year": "1864-1870"
+    "year": "1864-1870",
+    "image": "https://imagenes.elpais.com/resizer/v2/BXR5WUBLFNBVFCPPEHKJNREI3U.jpeg?auth=9ab2f140c4ed1f7702f6d2a963eb8e8871f1232db80de8cda37c4e262a920e0c&width=1200"
   },
   {
     "title": "Revolta da Armada",
-    "year": "1893-1894"
+    "year": "1893-1894",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Die_Gartenlaube_%281894%29_b_052.jpg/1920px-Die_Gartenlaube_%281894%29_b_052.jpg"
   },
   {
     "title": "Revolução Constitucionalista",
-    "year": "1932"
+    "year": "1932",
+    "image": "https://guiadoestudante.abril.com.br/wp-content/uploads/sites/4/2021/07/quadro-revolu%C3%A7%C3%A3o-constitucionalista-de-1932.jpg?quality=70&strip=info&w=1280&h=720&crop=1"
   },
   {
     "title": "Segunda Guerra Mundial",
-    "year": "1944-1945"
+    "year": "1944-1945",
+    "image": "https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhF7IV__PGIlck-8u9WLrmcn-q_l2ZxJrXRgAmwIwteKd04b_z_RbzrOO38nDPX8_7z3-z3PAG3mbj6Z9hl53tMbUonKJDVqSsjrQnIVdmX3DCzvrJbDyUc54vxPI4c0QF7IXkLU4R4NHg/s1600/General_German_Brazil.png"
   }
 ]

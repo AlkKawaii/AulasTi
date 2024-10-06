@@ -1,13 +1,32 @@
+@import url(../../styles/variables.module.css);
+
 .title {
-    text-align: center;
-    text-transform: capitalize;
+  font-size: 3em;
+  text-align: center;
+  text-transform: capitalize;
 }
 
 .paragraph {
-  font-size: 1.1em;
-  margin-top: .75em;
+  font-size: 1.2em;
+  padding: 0.75em;
   &::first-letter {
     font-size: 1.15em;
     margin-left: 2em;
   }
+}
+
+.image {
+  width: 20vw;
+  object-fit: cover;
+  padding: 0.5em;
+  border-radius: 1em;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  margin-top: 1.2em;
+  border-radius: 1em;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  background-color: var(--glass-color);
 }

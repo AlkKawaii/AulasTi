@@ -8,8 +8,13 @@
 
 *:has(~ .focused),
 .focused ~ * {
-  opacity: 0.75;
-  transform: scale(0.95);
+  opacity: 0.75 !important;
+  transform: scale(0.95) !important;
+}
+
+.focused {
+  transform: scale(1.025) !important; 
+  opacity: 1 !important; 
 }
 
 .focused div {
