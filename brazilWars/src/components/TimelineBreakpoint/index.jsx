@@ -50,7 +50,7 @@ export default function TimelineBreakpoint({ year, handleClick }) {
             width={20}
             height={20}
             d='M0 20C0 20 2.06906 19.9829 5.91817 15.4092C7.49986 13.5236 8.97939 12.3809 10.0002 12.3809C11.0202 12.3809 12.481 13.6451 14.0814 15.5472C17.952 20.1437 20 20 20 20H0Z'
-            fill='rgba(255, 255, 255, 0.2)'
+            fill='rgba(255, 255, 255, 0.4)'
           />
           {year}
         </div>

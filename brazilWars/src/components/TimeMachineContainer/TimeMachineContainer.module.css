@@ -6,15 +6,15 @@
   justify-content: center;
 }
 
-*:has(~ .focused),
-.focused ~ * {
-  opacity: 0.75 !important;
-  transform: scale(0.95) !important;
+*:has(~ :is(.focused)),
+:is(.focused) ~ * {
+  opacity: 0.75;
+  transform: scale(0.95);
 }
 
-.focused {
-  transform: scale(1.025) !important; 
-  opacity: 1 !important; 
+:is(.focused) {
+  transform: scale(1.025);
+  opacity: 1;
 }
 
 .focused > section > div {
@@ -23,17 +23,17 @@
 @keyframes rainbow {
   from,
   to {
-    border: red solid 0px;
+    border: cyan solid 0px;
   }
 
   25% {
-    border: yellow solid 8px;
+    border: lightblue solid 8px;
   }
   50% {
-    border: blue solid 8px;
+    border: cyan solid 8px;
   }
 
   75% {
-    border: green solid 8px;
+    border: lightblue solid 8px;
   }
 }

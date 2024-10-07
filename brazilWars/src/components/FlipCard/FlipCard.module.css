@@ -59,8 +59,8 @@
   transform: rotateY(180deg);
 }
 
-*:has(~ :is(.flipCard:hover, .focused)),
-:is(.flipCard:hover, .focused) ~ * {
+*:has(~ :where(.flipCard:hover)),
+:where(.flipCard:hover) ~ * {
   opacity: 0.75;
   transform: scale(0.95);
 }
