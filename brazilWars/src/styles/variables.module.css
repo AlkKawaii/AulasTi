@@ -1,8 +1,6 @@
 :root {
-  --background-color: rgb(75, 75, 80);
-  --glass-color: rgba(255, 255, 255, 0.2);
-  --highlight-color: rgb(245, 170, 35);
-  --primary-color: rgb(70, 145, 230);
+  --background-color: rgb(185, 185, 210);
+  --glass-color: rgba(255, 255, 255, 0.4);
   --secondary-color: rgb(100, 100, 120);
-  --font-color: rgb(250, 220, 220);
+  --font-color: rgb(20, 20, 20);
 }

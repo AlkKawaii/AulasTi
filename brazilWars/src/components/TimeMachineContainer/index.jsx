@@ -32,7 +32,6 @@ export default function TimeMachineContainer({}) {
           );
         })}
       </div>
-      <Accordion />
     </section>
   );
 }

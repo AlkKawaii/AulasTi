@@ -1,7 +1,33 @@
+import Accordion from '../Accordion';
 import styles from './FlipCard.module.css';
 import { forwardRef } from 'react';
 
 const FlipCard = forwardRef(({ info }, ref) => {
+  const mainBattles = (
+    <ul>
+      {info.mainBattles.map((battle, index) => {
+        return (
+          <li key={index} className={styles.subItem}>
+            {battle}
+          </li>
+        );
+      })}
+    </ul>
+  );
+  const curiosities = (
+    <ul>
+      {info.curiosities.map((curiosity, index) => {
+        return (
+          <li key={index} className={styles.subItem}>
+            {curiosity}
+          </li>
+        );
+      })}
+    </ul>
+  );
+
+  const description = <p>{info.description}</p>;
+
   return (
     <div className={styles.flipCard} ref={ref}>
       <section className={styles.flipCardInner}>
@@ -14,34 +40,10 @@ const FlipCard = forwardRef(({ info }, ref) => {
             <h2>{info.title}</h2>
             <span>{info.year}</span>
           </div>
-          <details>
-            <summary>Descrição</summary>
-            <p>{info.description}</p>
-          </details>
-          <details>
-            <summary>Principais conflitos</summary>
-            <ul>
-              {info.mainBattles.map((battle, index) => {
-                return (
-                  <li key={index} className={styles.subItem}>
-                    {battle}
-                  </li>
-                );
-              })}
-            </ul>
-          </details>
-          <details>
-            <summary>Curiosidades</summary>
-            <ul>
-              {info.curiosities.map((curiosity, index) => {
-                return (
-                  <li key={index} className={styles.subItem}>
-                    {curiosity}
-                  </li>
-                );
-              })}
-            </ul>
-          </details>
+          <Accordion
+            labels={['Descrição', 'Principais Conflitos', 'Curiosidades']}
+            content={[description, mainBattles, curiosities]}
+          />
         </article>
       </section>
     </div>

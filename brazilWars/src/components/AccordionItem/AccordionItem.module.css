@@ -1,0 +1,34 @@
+@import url(../../styles/variables.module.css);
+
+.label {
+  display: flex;
+  border-bottom: 2px transparent solid;
+  align-items: center;
+  justify-content: space-between;
+  cursor: pointer;
+  transition: all 0.2s ease-out;
+}
+
+.label.open,
+.label:hover {
+  border-bottom: 2px var(--font-color) solid;
+}
+
+.arrow {
+    transition: transform .5s;
+}
+
+.label.open .arrow{
+    transform: rotateZ(180deg);
+}
+
+.accordion {
+  max-height: 0;
+  overflow: hidden;
+  transition: all 0.25s ease-out;
+}
+
+.accordion.open {
+  max-height: 500px;
+  transition: all 0.5s ease-out;
+}

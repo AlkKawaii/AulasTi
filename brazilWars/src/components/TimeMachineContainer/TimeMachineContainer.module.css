@@ -17,7 +17,7 @@
   opacity: 1 !important; 
 }
 
-.focused div {
+.focused > section > div {
   animation: rainbow 1.75s 0.1s forwards;
 }
 @keyframes rainbow {
