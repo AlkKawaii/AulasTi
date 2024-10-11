@@ -6,9 +6,9 @@ export default function Default() {
   return (
     <>
       <Header />
-      <div className={styles.container}>
+      <main className={styles.container}>
         <Outlet />
-      </div>
+      </main>
     </>
   );
 }
