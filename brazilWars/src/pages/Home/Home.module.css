@@ -30,3 +30,16 @@
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   background-color: var(--glass-color);
 }
+
+@media (orientation: portrait) {
+  :is(.container) {
+    flex-direction: column;
+    & .paragraph {
+      order: 1;
+    }
+    & .image {
+      width: 100%;
+      order: 0;
+    }
+  }
+}
