@@ -42,4 +42,7 @@
       order: 0;
     }
   }
+  .title {
+    font-size: 2.25em;
+  }
 }

@@ -49,3 +49,9 @@
     width: 100%;
   }
 }
+
+@media (orientation: portrait) {
+  .link {
+    font-size: 1.3em;
+  }
+}
