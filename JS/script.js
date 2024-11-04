@@ -1,67 +1,117 @@
-// const meuNome = window.prompt('Digite o nome:');
-// window.alert(meuNome);
+// Tentar fazer o menor possível e sem declarar variável
 
-// const num1 = 7;
-// const num2 = 8;
+// Par ou Ímpar
 
-// window.alert(num1 + num2);
++window.prompt('Insira um número: ') % 2 === 0
+  ? window.alert('Número par')
+  : window.alert('Número impar');
 
-// const num1 = 123;
-// const num2 = 1534;
-// const num3 = 17;
-// const num4 = 15;
-// const num5 = 12;
-// const num6 = 121;
-// const num7 = 14;
-// const num8 = 41;
-// const num9 = 13;
-// const num10 = 21;
+// Verificação de idade
 
-// window.alert(
-//   (num1 + num2 + num3 + num4 + num5 + num6 + num7 + num8 + num9 + num10) / 10
-// );
++window.prompt('Digite sua idade:') >= 18
+  ? window.alert('Maior de idade')
+  : window.alert('Menor de idade');
 
-// const aNum = 10;
-// const anotherNum = 8;
+// Desconto
 
-// window.alert(
-//   `Adição: ${aNum + anotherNum} \n Multiplicação: ${
-//     aNum * anotherNum
-//   } \n Subtração: ${aNum - anotherNum} \n Divisão: ${aNum / anotherNum} `
-// );
+function verifyDiscount(price) {
+  return +price >= 100 ? +price - +price * 0.1 : +price;
+}
 
-// const age = +window.prompt('Digite sua idade:');
+window.alert(
+  `Valor da compra: ${verifyDiscount(
+    window.prompt('Digite o valor da compra: ')
+  )}`
+);
 
-// if (age >= 18) {
-//   window.alert('Maior de idade');
-// } else {
-//   window.alert('Menor de idade');
-// }
+// Aumento salarial
 
-// const num1 = +window.prompt('Digite um número:');
-// const num2 = +window.prompt('Digite um número:');
+function verifyAugment(wage) {
+  return +wage < 1500 ? +wage + +wage * 0.2 : +wage + +wage * 0.1;
+}
 
-// window.alert('O maior é ' + Math.max(num1, num2));
+window.alert(
+  `Salário com Aumento: ${verifyAugment(
+    window.prompt('Digite o salário atual: ')
+  )}`
+);
 
-// const diameter = +window.prompt('Insira o diâmetro: ');
-// const circumference = Math.PI * diameter;
+// Positivo ou negativo
 
-// const tempInCelsius = +window.prompt('Insira a temperatura em Celsius:');
-// const tempInFahrenheit = tempInCelsius * 1.8 + 32;
+function verifyNum(num) {
+  num === 0
+    ? window.alert('Número zero')
+    : num > 0
+    ? window.alert('Número positivo')
+    : window.alert('Número negativo');
+}
 
-// window.alert('A temperatura em graus fahrenheit é: ' + tempInFahrenheit);
+verifyNum(window.prompt('Digite um número: '));
 
-// const valorFralda = 2.5;
-// const fraldaPorDia = 4;
-// const diasPorMes = 30;
+// Cálculo de média
 
-// window.alert(valorFralda * fraldaPorDia * diasPorMes);
+function calcAverage(...grades) {
+  return grades.reduce((prev, current) => +prev + +current, 0) /
+    grades.length >=
+    7
+    ? 'Aprovado'
+    : 'Reprovado';
+}
 
-const prod = [3265, 4127, 2987];
+window.alert(
+  calcAverage(
+    window.prompt('Digite sua nota: '),
+    window.prompt('Digite sua nota: '),
+    window.prompt('Digite sua nota: ')
+  )
+);
 
-const minProd = Math.min(...prod);
-const maxProd = Math.max(...prod);
+// Classificação de idade
 
-const total = prod.reduce((prev, current) => prev + current, 0);
+function ageClassification(age) {
+  return age < 0
+    ? 'Inválido'
+    : age <= 12
+    ? 'Criança'
+    : age <= 17
+    ? 'Adolescente'
+    : age >= 18
+    ? 'Adulto'
+    : null;
+}
 
-window.alert(`Produção total: ${total}\nQueda: ${maxProd - minProd}`);
+window.alert(ageClassification(+window.prompt('Digite sua idade:')));
+
+// Calculadora simples
+
+window.alert(eval(window.prompt('Digite sua expressão matemática: ')));
+
+// Calculadora de IMC
+
+function calcIMC(weight, height) {
+  return weight / height ** 2;
+}
+
+function classifyIMC(IMC) {
+  return IMC <= 18.5
+    ? 'Baixo Peso'
+    : IMC >= 18.5 && IMC <= 24.9
+    ? 'Peso adequado'
+    : IMC >= 25 && IMC <= 29.9
+    ? 'Sobrepeso'
+    : 'Obeso';
+}
+window.alert(
+  classifyIMC(
+    calcIMC(
+      window.prompt('Digite seu peso:'),
+      window.prompt('Digite sua altura:')
+    )
+  )
+);
+
+// Conversão de notas
+
+function gradeConversion(grade) {
+    
+}
